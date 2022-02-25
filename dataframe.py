@@ -18,3 +18,7 @@ for coordinate in df["geometry"]:
 df["latitude"] = latitudes
 df["longtitude"] = longtitudes
 
+del df['_id']
+del df['Location_Code']
+
+coordinates = zip(latitudes, longtitudes)

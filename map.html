@@ -1,0 +1,1963 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5046c351978c4092b3b63dd9fb03c5ba {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_5046c351978c4092b3b63dd9fb03c5ba" ></div>
+        
+</body>
+<script>    
+    
+            var map_5046c351978c4092b3b63dd9fb03c5ba = L.map(
+                "map_5046c351978c4092b3b63dd9fb03c5ba",
+                {
+                    center: [43.728136, -79.384666],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_423439b84e7c4a3794c0458582b2d80b = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+            var circle_marker_815170d523d64044af5397cd017a5e92 = L.circleMarker(
+                [43.721092, -79.571337],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_ed6eca3a105849529fc856cadc68b309 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_85e8c97c907441e2804f8d52a2d247a0 = $(`<div id="html_85e8c97c907441e2804f8d52a2d247a0" style="width: 100.0%; height: 100.0%;">Kipling Ave. South of Snaresbrook Dr.  43.721092,-79.571337</div>`)[0];
+            popup_ed6eca3a105849529fc856cadc68b309.setContent(html_85e8c97c907441e2804f8d52a2d247a0);
+        
+
+        circle_marker_815170d523d64044af5397cd017a5e92.bindPopup(popup_ed6eca3a105849529fc856cadc68b309)
+        ;
+
+        
+    
+    
+            var circle_marker_b7c8b32efa1040e7b461ed34d4f85ece = L.circleMarker(
+                [43.738316, -79.595815],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_af3f52728d5646f48a9ff08e9bb42b0b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_906002fadc5c488f802a55050804e004 = $(`<div id="html_906002fadc5c488f802a55050804e004" style="width: 100.0%; height: 100.0%;">Silverstone Dr. North of Avening Dr.  43.738316,-79.595815</div>`)[0];
+            popup_af3f52728d5646f48a9ff08e9bb42b0b.setContent(html_906002fadc5c488f802a55050804e004);
+        
+
+        circle_marker_b7c8b32efa1040e7b461ed34d4f85ece.bindPopup(popup_af3f52728d5646f48a9ff08e9bb42b0b)
+        ;
+
+        
+    
+    
+            var circle_marker_36c93ba9373f450ca2ff367ca35a4991 = L.circleMarker(
+                [43.684686, -79.56139],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_f09f6d6b44a74fefa37c8248f4cc4a4d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc399d03d4df403f8d908a13b09cae81 = $(`<div id="html_dc399d03d4df403f8d908a13b09cae81" style="width: 100.0%; height: 100.0%;">The Westway West of Brampton Rd.  43.684686,-79.56139</div>`)[0];
+            popup_f09f6d6b44a74fefa37c8248f4cc4a4d.setContent(html_dc399d03d4df403f8d908a13b09cae81);
+        
+
+        circle_marker_36c93ba9373f450ca2ff367ca35a4991.bindPopup(popup_f09f6d6b44a74fefa37c8248f4cc4a4d)
+        ;
+
+        
+    
+    
+            var circle_marker_e6c6597849354b1bae48a7ae51979a68 = L.circleMarker(
+                [43.650985, -79.522707],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_5c238552a8f04b9bb603c5eabada102a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f2bb218d4454446a6fdd28aac947c00 = $(`<div id="html_9f2bb218d4454446a6fdd28aac947c00" style="width: 100.0%; height: 100.0%;">Montgomery Rd. Near Loyalist Rd.  43.650985,-79.522707</div>`)[0];
+            popup_5c238552a8f04b9bb603c5eabada102a.setContent(html_9f2bb218d4454446a6fdd28aac947c00);
+        
+
+        circle_marker_e6c6597849354b1bae48a7ae51979a68.bindPopup(popup_5c238552a8f04b9bb603c5eabada102a)
+        ;
+
+        
+    
+    
+            var circle_marker_7598768e9e6f4b828fb19e0eb6299cc3 = L.circleMarker(
+                [43.600467, -79.519132],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_18ddc7c9289c4638a052c0728967df06 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f91ea1eda9854a7699ed3000115c2936 = $(`<div id="html_f91ea1eda9854a7699ed3000115c2936" style="width: 100.0%; height: 100.0%;">Birmingham St. West of Kipling Ave.  43.600467,-79.519132</div>`)[0];
+            popup_18ddc7c9289c4638a052c0728967df06.setContent(html_f91ea1eda9854a7699ed3000115c2936);
+        
+
+        circle_marker_7598768e9e6f4b828fb19e0eb6299cc3.bindPopup(popup_18ddc7c9289c4638a052c0728967df06)
+        ;
+
+        
+    
+    
+            var circle_marker_1f7f4fa113b7443f8185488f7ee77afc = L.circleMarker(
+                [43.635061, -79.506245],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_2f70d2688f644fc2954e81adfb407472 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5fe8e2ce1e542d1a00d9c57582a8991 = $(`<div id="html_d5fe8e2ce1e542d1a00d9c57582a8991" style="width: 100.0%; height: 100.0%;">Royal York Rd. North of Coney Rd.  43.635061,-79.506245</div>`)[0];
+            popup_2f70d2688f644fc2954e81adfb407472.setContent(html_d5fe8e2ce1e542d1a00d9c57582a8991);
+        
+
+        circle_marker_1f7f4fa113b7443f8185488f7ee77afc.bindPopup(popup_2f70d2688f644fc2954e81adfb407472)
+        ;
+
+        
+    
+    
+            var circle_marker_f4053586fc5543c782d2bcb85d15cbf9 = L.circleMarker(
+                [43.663813, -79.488845],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_dad74a60c43a4f1784dae4994c254187 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d241ae8a4a5544068dd3d9592d5b17b3 = $(`<div id="html_d241ae8a4a5544068dd3d9592d5b17b3" style="width: 100.0%; height: 100.0%;">Priscilla Ave. South of Dundas St. W.  43.663813,-79.488845</div>`)[0];
+            popup_dad74a60c43a4f1784dae4994c254187.setContent(html_d241ae8a4a5544068dd3d9592d5b17b3);
+        
+
+        circle_marker_f4053586fc5543c782d2bcb85d15cbf9.bindPopup(popup_dad74a60c43a4f1784dae4994c254187)
+        ;
+
+        
+    
+    
+            var circle_marker_208e263444c0478e93494cc5aabeff3c = L.circleMarker(
+                [43.651459, -79.485329],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_5e875603fc2d41d19e1f1d73a7b7f38e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a5ac9195a8b1459f99782df58e526d26 = $(`<div id="html_a5ac9195a8b1459f99782df58e526d26" style="width: 100.0%; height: 100.0%;">Jane St. South of Weatherell St.  43.651459,-79.485329</div>`)[0];
+            popup_5e875603fc2d41d19e1f1d73a7b7f38e.setContent(html_a5ac9195a8b1459f99782df58e526d26);
+        
+
+        circle_marker_208e263444c0478e93494cc5aabeff3c.bindPopup(popup_5e875603fc2d41d19e1f1d73a7b7f38e)
+        ;
+
+        
+    
+    
+            var circle_marker_98974ab9d1a84bbaa7e8e26e3a2b5244 = L.circleMarker(
+                [43.703265, -79.501502],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_a73610dde92a44b59aa37661fef79e42 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_596d232a8da14149a2f77001fcda74d4 = $(`<div id="html_596d232a8da14149a2f77001fcda74d4" style="width: 100.0%; height: 100.0%;">Lawrence Ave. W. East of Martini Dr.  43.703265,-79.501502</div>`)[0];
+            popup_a73610dde92a44b59aa37661fef79e42.setContent(html_596d232a8da14149a2f77001fcda74d4);
+        
+
+        circle_marker_98974ab9d1a84bbaa7e8e26e3a2b5244.bindPopup(popup_a73610dde92a44b59aa37661fef79e42)
+        ;
+
+        
+    
+    
+            var circle_marker_52219a5cf43c4dabb55e8ace74b69967 = L.circleMarker(
+                [43.702058, -79.520012],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_716ce02a959b4010a3dbbcef5a7d107b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23b26086778143ac9e4a6c49f165790a = $(`<div id="html_23b26086778143ac9e4a6c49f165790a" style="width: 100.0%; height: 100.0%;">King St. South of George St  43.702058,-79.520012</div>`)[0];
+            popup_716ce02a959b4010a3dbbcef5a7d107b.setContent(html_23b26086778143ac9e4a6c49f165790a);
+        
+
+        circle_marker_52219a5cf43c4dabb55e8ace74b69967.bindPopup(popup_716ce02a959b4010a3dbbcef5a7d107b)
+        ;
+
+        
+    
+    
+            var circle_marker_05af696ef8f844d8953d5be78948004b = L.circleMarker(
+                [43.741206, -79.502757],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_7d74c0f628e945be80402214493f7a79 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b2af64ed625488dbab4911d26e1be72 = $(`<div id="html_7b2af64ed625488dbab4911d26e1be72" style="width: 100.0%; height: 100.0%;">Sheppard Ave. W. East of Buckland Rd.  43.741206,-79.502757</div>`)[0];
+            popup_7d74c0f628e945be80402214493f7a79.setContent(html_7b2af64ed625488dbab4911d26e1be72);
+        
+
+        circle_marker_05af696ef8f844d8953d5be78948004b.bindPopup(popup_7d74c0f628e945be80402214493f7a79)
+        ;
+
+        
+    
+    
+            var circle_marker_449292b614604b55ada183cf670772ec = L.circleMarker(
+                [43.751653, -79.451329],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_507e4d3d6fc24a6e86e58042008d41f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe2b4cc574f5406f9e6cdd2e7d9c85d5 = $(`<div id="html_fe2b4cc574f5406f9e6cdd2e7d9c85d5" style="width: 100.0%; height: 100.0%;">Faywood Blvd. Near Norcross Rd.  43.751653,-79.451329</div>`)[0];
+            popup_507e4d3d6fc24a6e86e58042008d41f5.setContent(html_fe2b4cc574f5406f9e6cdd2e7d9c85d5);
+        
+
+        circle_marker_449292b614604b55ada183cf670772ec.bindPopup(popup_507e4d3d6fc24a6e86e58042008d41f5)
+        ;
+
+        
+    
+    
+            var circle_marker_82da6392d424498a90470c2ee4aad087 = L.circleMarker(
+                [43.74218, -79.513888],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_d22a0a9a2f5a41b2a3ac1fc0e09a0f62 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b2d5c871279c48458aae787747195d56 = $(`<div id="html_b2d5c871279c48458aae787747195d56" style="width: 100.0%; height: 100.0%;">Jane St. North of Clair Rd.  43.74218,-79.513888</div>`)[0];
+            popup_d22a0a9a2f5a41b2a3ac1fc0e09a0f62.setContent(html_b2d5c871279c48458aae787747195d56);
+        
+
+        circle_marker_82da6392d424498a90470c2ee4aad087.bindPopup(popup_d22a0a9a2f5a41b2a3ac1fc0e09a0f62)
+        ;
+
+        
+    
+    
+            var circle_marker_26b8e7c0eac84537bf54f9fdbfff3dfd = L.circleMarker(
+                [43.751013, -79.514669],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_e0067760efb14fa2b72b60a832b549dc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3dedfcf1a0fa4b4195dd2b49b34106ad = $(`<div id="html_3dedfcf1a0fa4b4195dd2b49b34106ad" style="width: 100.0%; height: 100.0%;">Yorkwoods Gate. East of Jane St.  43.751013,-79.514669</div>`)[0];
+            popup_e0067760efb14fa2b72b60a832b549dc.setContent(html_3dedfcf1a0fa4b4195dd2b49b34106ad);
+        
+
+        circle_marker_26b8e7c0eac84537bf54f9fdbfff3dfd.bindPopup(popup_e0067760efb14fa2b72b60a832b549dc)
+        ;
+
+        
+    
+    
+            var circle_marker_683177c1c8c54e76a27f1582d12227a7 = L.circleMarker(
+                [43.716315, -79.43208],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_ea31d56154634654a1bd2d419423c882 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_717a838622764c08be81c651ffcff6d9 = $(`<div id="html_717a838622764c08be81c651ffcff6d9" style="width: 100.0%; height: 100.0%;">Glenmount Ave. Near Madoc Dr.  43.716315,-79.43208</div>`)[0];
+            popup_ea31d56154634654a1bd2d419423c882.setContent(html_717a838622764c08be81c651ffcff6d9);
+        
+
+        circle_marker_683177c1c8c54e76a27f1582d12227a7.bindPopup(popup_ea31d56154634654a1bd2d419423c882)
+        ;
+
+        
+    
+    
+            var circle_marker_2150f88374f442cf9c825404604083ac = L.circleMarker(
+                [43.720427, -79.415062],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_2eb386363485467bb68ca785148425ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3b4aaacd7da45c18fac6ad0cc9a5e46 = $(`<div id="html_c3b4aaacd7da45c18fac6ad0cc9a5e46" style="width: 100.0%; height: 100.0%;">Avenue Rd. South of Caribou Rd.  43.720427,-79.415062</div>`)[0];
+            popup_2eb386363485467bb68ca785148425ae.setContent(html_c3b4aaacd7da45c18fac6ad0cc9a5e46);
+        
+
+        circle_marker_2150f88374f442cf9c825404604083ac.bindPopup(popup_2eb386363485467bb68ca785148425ae)
+        ;
+
+        
+    
+    
+            var circle_marker_18ced7019d9e43cebf7e0ca90bf2ad88 = L.circleMarker(
+                [43.679207, -79.443567],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_4d56eb20589e4cd1a23c19eb95e63e07 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d9888c7d8414c599f82b2783636c97c = $(`<div id="html_7d9888c7d8414c599f82b2783636c97c" style="width: 100.0%; height: 100.0%;">Dufferin St. North of Norton Ave.  43.679207,-79.443567</div>`)[0];
+            popup_4d56eb20589e4cd1a23c19eb95e63e07.setContent(html_7d9888c7d8414c599f82b2783636c97c);
+        
+
+        circle_marker_18ced7019d9e43cebf7e0ca90bf2ad88.bindPopup(popup_4d56eb20589e4cd1a23c19eb95e63e07)
+        ;
+
+        
+    
+    
+            var circle_marker_47232a2057244531be73c90a186e18ec = L.circleMarker(
+                [43.678625, -79.435508],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_b1579e4b0bc049c1832cfb3eb24ab18f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64483699f38d4f209c86ef82613fe780 = $(`<div id="html_64483699f38d4f209c86ef82613fe780" style="width: 100.0%; height: 100.0%;">Oakwood Ave. Near Biggar Ave.  43.678625,-79.435508</div>`)[0];
+            popup_b1579e4b0bc049c1832cfb3eb24ab18f.setContent(html_64483699f38d4f209c86ef82613fe780);
+        
+
+        circle_marker_47232a2057244531be73c90a186e18ec.bindPopup(popup_b1579e4b0bc049c1832cfb3eb24ab18f)
+        ;
+
+        
+    
+    
+            var circle_marker_a0cf62338f144969b3499b42d5eca2aa = L.circleMarker(
+                [43.636104, -79.397689],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_0d0a3d1b3bc64044940471add3124de5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9bb5a39e88e14fe98e5de21755c781de = $(`<div id="html_9bb5a39e88e14fe98e5de21755c781de" style="width: 100.0%; height: 100.0%;">Queens Quay East of Bathurst St.  43.636104,-79.397689</div>`)[0];
+            popup_0d0a3d1b3bc64044940471add3124de5.setContent(html_9bb5a39e88e14fe98e5de21755c781de);
+        
+
+        circle_marker_a0cf62338f144969b3499b42d5eca2aa.bindPopup(popup_0d0a3d1b3bc64044940471add3124de5)
+        ;
+
+        
+    
+    
+            var circle_marker_bb586d8e319b44fdbd36bd0c5a425722 = L.circleMarker(
+                [43.646066, -79.418101],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_43b7e3f3ebe542ffa1cffba7d20db203 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_373b7db4700a4f4288933b88523685b4 = $(`<div id="html_373b7db4700a4f4288933b88523685b4" style="width: 100.0%; height: 100.0%;">Givins St. South of Argyle St.  43.646066,-79.418101</div>`)[0];
+            popup_43b7e3f3ebe542ffa1cffba7d20db203.setContent(html_373b7db4700a4f4288933b88523685b4);
+        
+
+        circle_marker_bb586d8e319b44fdbd36bd0c5a425722.bindPopup(popup_43b7e3f3ebe542ffa1cffba7d20db203)
+        ;
+
+        
+    
+    
+            var circle_marker_dd1d1dd3569a40daa5f8cd534a22fb3e = L.circleMarker(
+                [43.674231, -79.392113],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_e2514267d4874dd092a11bca3388a599 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4ec96c8d18348ee9e944ea36bb49fca = $(`<div id="html_c4ec96c8d18348ee9e944ea36bb49fca" style="width: 100.0%; height: 100.0%;">Davenport Rd. Near Bishop St.  43.674231,-79.392113</div>`)[0];
+            popup_e2514267d4874dd092a11bca3388a599.setContent(html_c4ec96c8d18348ee9e944ea36bb49fca);
+        
+
+        circle_marker_dd1d1dd3569a40daa5f8cd534a22fb3e.bindPopup(popup_e2514267d4874dd092a11bca3388a599)
+        ;
+
+        
+    
+    
+            var circle_marker_6d98ca014f554e8eaa0983a7f508696c = L.circleMarker(
+                [43.654858, -79.394266],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_f598014c46fe4b60a512d2266cafbb0f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c40f9c0bd7654d37b2204545a3289495 = $(`<div id="html_c40f9c0bd7654d37b2204545a3289495" style="width: 100.0%; height: 100.0%;">Beverley St. Near D'Arcy St.  43.654858,-79.394266</div>`)[0];
+            popup_f598014c46fe4b60a512d2266cafbb0f.setContent(html_c40f9c0bd7654d37b2204545a3289495);
+        
+
+        circle_marker_6d98ca014f554e8eaa0983a7f508696c.bindPopup(popup_f598014c46fe4b60a512d2266cafbb0f)
+        ;
+
+        
+    
+    
+            var circle_marker_01c6cc0fb09d43a9a31b370ecb046197 = L.circleMarker(
+                [43.693662, -79.422577],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_a84b9d46894c4c0c9e921624dd0d757e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3786c33ec1d2441ba43c1b5918406858 = $(`<div id="html_3786c33ec1d2441ba43c1b5918406858" style="width: 100.0%; height: 100.0%;">Bathurst St. Near Ardmore Rd.  43.693662,-79.422577</div>`)[0];
+            popup_a84b9d46894c4c0c9e921624dd0d757e.setContent(html_3786c33ec1d2441ba43c1b5918406858);
+        
+
+        circle_marker_01c6cc0fb09d43a9a31b370ecb046197.bindPopup(popup_a84b9d46894c4c0c9e921624dd0d757e)
+        ;
+
+        
+    
+    
+            var circle_marker_305b14992d134357bb9b8fb0fd9d8911 = L.circleMarker(
+                [43.691502, -79.433017],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_058054ba92f640369d8caf48ff6ca781 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b5ffd3ee467420daae9a8a2939b3367 = $(`<div id="html_7b5ffd3ee467420daae9a8a2939b3367" style="width: 100.0%; height: 100.0%;">Arlington Ave. South of Durham Ave.  43.691502,-79.433017</div>`)[0];
+            popup_058054ba92f640369d8caf48ff6ca781.setContent(html_7b5ffd3ee467420daae9a8a2939b3367);
+        
+
+        circle_marker_305b14992d134357bb9b8fb0fd9d8911.bindPopup(popup_058054ba92f640369d8caf48ff6ca781)
+        ;
+
+        
+    
+    
+            var circle_marker_5378624b01fc488bb56fa6132510a094 = L.circleMarker(
+                [43.65621, -79.361694],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_1cdf0ab295914356ba8a7d3d742f56d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5819173fc6042bc873e38b1da8c040d = $(`<div id="html_d5819173fc6042bc873e38b1da8c040d" style="width: 100.0%; height: 100.0%;">Queen St. E. Near Sackville St.  43.65621,-79.361694</div>`)[0];
+            popup_1cdf0ab295914356ba8a7d3d742f56d8.setContent(html_d5819173fc6042bc873e38b1da8c040d);
+        
+
+        circle_marker_5378624b01fc488bb56fa6132510a094.bindPopup(popup_1cdf0ab295914356ba8a7d3d742f56d8)
+        ;
+
+        
+    
+    
+            var circle_marker_1223aa2f8167493b84b0b8c1e5967d00 = L.circleMarker(
+                [43.669437, -79.37682],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_c68f90eef2dc4e97a66820e936122ed7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d881cd8b02f94c4c855c032053bef3cc = $(`<div id="html_d881cd8b02f94c4c855c032053bef3cc" style="width: 100.0%; height: 100.0%;">Isabella St. West of Sherbourne St.  43.669437,-79.37682</div>`)[0];
+            popup_c68f90eef2dc4e97a66820e936122ed7.setContent(html_d881cd8b02f94c4c855c032053bef3cc);
+        
+
+        circle_marker_1223aa2f8167493b84b0b8c1e5967d00.bindPopup(popup_c68f90eef2dc4e97a66820e936122ed7)
+        ;
+
+        
+    
+    
+            var circle_marker_f8462a45844c45bda6de8f2277083872 = L.circleMarker(
+                [43.689517, -79.341014],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_18e778b3d9e744c097cf15bb689b9b04 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10c353a0b47f4088accca3eee63ad9f5 = $(`<div id="html_10c353a0b47f4088accca3eee63ad9f5" style="width: 100.0%; height: 100.0%;">Donlands Ave. Near Memorial Park Ave.  43.689517,-79.341014</div>`)[0];
+            popup_18e778b3d9e744c097cf15bb689b9b04.setContent(html_10c353a0b47f4088accca3eee63ad9f5);
+        
+
+        circle_marker_f8462a45844c45bda6de8f2277083872.bindPopup(popup_18e778b3d9e744c097cf15bb689b9b04)
+        ;
+
+        
+    
+    
+            var circle_marker_1ee2b04775414fa485dd061561670fa8 = L.circleMarker(
+                [43.685962, -79.351208],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_fb0cadf19ca24c238ec118333235ce61 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b07eea952b4c429bac8667d366f75334 = $(`<div id="html_b07eea952b4c429bac8667d366f75334" style="width: 100.0%; height: 100.0%;">Westwood Ave. West of Carlaw Ave.  43.685962,-79.351208</div>`)[0];
+            popup_fb0cadf19ca24c238ec118333235ce61.setContent(html_b07eea952b4c429bac8667d366f75334);
+        
+
+        circle_marker_1ee2b04775414fa485dd061561670fa8.bindPopup(popup_fb0cadf19ca24c238ec118333235ce61)
+        ;
+
+        
+    
+    
+            var circle_marker_728da86e3de248ee844b77f2e094c91f = L.circleMarker(
+                [43.728136, -79.384666],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_f233d73760ac4785979e589db95c3ae8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d613cf080844ece976a84e95d265276 = $(`<div id="html_7d613cf080844ece976a84e95d265276" style="width: 100.0%; height: 100.0%;">Lawrence Ave. E. East of Mildenhall Rd.  43.728136,-79.384666</div>`)[0];
+            popup_f233d73760ac4785979e589db95c3ae8.setContent(html_7d613cf080844ece976a84e95d265276);
+        
+
+        circle_marker_728da86e3de248ee844b77f2e094c91f.bindPopup(popup_f233d73760ac4785979e589db95c3ae8)
+        ;
+
+        
+    
+    
+            var circle_marker_d51bcd306fc34d95b16fb81361dcdc6c = L.circleMarker(
+                [43.754147, -79.37075],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_cf31503ec4004df1a2341be05f2cff9c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf25b7fb965e417b9a66522a44deb682 = $(`<div id="html_bf25b7fb965e417b9a66522a44deb682" style="width: 100.0%; height: 100.0%;">Banbury Rd. Near Portsmith Rd.  43.754147,-79.37075</div>`)[0];
+            popup_cf31503ec4004df1a2341be05f2cff9c.setContent(html_bf25b7fb965e417b9a66522a44deb682);
+        
+
+        circle_marker_d51bcd306fc34d95b16fb81361dcdc6c.bindPopup(popup_cf31503ec4004df1a2341be05f2cff9c)
+        ;
+
+        
+    
+    
+            var circle_marker_c4d8a4395c0c4baaa2041fb38ed8dc0c = L.circleMarker(
+                [43.749876, -79.354894],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_ac7613e594fe4a8f8e5ff1b88cefdbd4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5d31f12cdfaf43f68195c11096b2a973 = $(`<div id="html_5d31f12cdfaf43f68195c11096b2a973" style="width: 100.0%; height: 100.0%;">Scarsdale Rd. South of York Mills Rd.  43.749876,-79.354894</div>`)[0];
+            popup_ac7613e594fe4a8f8e5ff1b88cefdbd4.setContent(html_5d31f12cdfaf43f68195c11096b2a973);
+        
+
+        circle_marker_c4d8a4395c0c4baaa2041fb38ed8dc0c.bindPopup(popup_ac7613e594fe4a8f8e5ff1b88cefdbd4)
+        ;
+
+        
+    
+    
+            var circle_marker_52e6444e9137405381dab7d617b1acac = L.circleMarker(
+                [43.755113, -79.321751],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_4932e3eaeafa4475bb0e5939b5a0f39a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92de9e2b6fc64d2bb7e19ceffbd8f69b = $(`<div id="html_92de9e2b6fc64d2bb7e19ceffbd8f69b" style="width: 100.0%; height: 100.0%;">Wallingford Rd. North of Cassandra Blvd.  43.755113,-79.321751</div>`)[0];
+            popup_4932e3eaeafa4475bb0e5939b5a0f39a.setContent(html_92de9e2b6fc64d2bb7e19ceffbd8f69b);
+        
+
+        circle_marker_52e6444e9137405381dab7d617b1acac.bindPopup(popup_4932e3eaeafa4475bb0e5939b5a0f39a)
+        ;
+
+        
+    
+    
+            var circle_marker_cf828c8510344efdbb6dd035e5f361c2 = L.circleMarker(
+                [43.781617, -79.325995],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_f52404b68a1f4a11adb0e9300d56956b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e4682f4c85314dc7a9dbca9e8ad7e2ac = $(`<div id="html_e4682f4c85314dc7a9dbca9e8ad7e2ac" style="width: 100.0%; height: 100.0%;">Victoria Park Ave. North of Old Sheppard Ave.  43.781617,-79.325995</div>`)[0];
+            popup_f52404b68a1f4a11adb0e9300d56956b.setContent(html_e4682f4c85314dc7a9dbca9e8ad7e2ac);
+        
+
+        circle_marker_cf828c8510344efdbb6dd035e5f361c2.bindPopup(popup_f52404b68a1f4a11adb0e9300d56956b)
+        ;
+
+        
+    
+    
+            var circle_marker_62ea590223e34f0cbb4dc3df8dcd446c = L.circleMarker(
+                [43.78279, -79.332558],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_11d549131fe04bc0a4eec798db76c7e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_783c4fd6671a4232a08a57fde09ac81d = $(`<div id="html_783c4fd6671a4232a08a57fde09ac81d" style="width: 100.0%; height: 100.0%;">Brian Dr.  North of Clydesdale Dr.  43.78279,-79.332558</div>`)[0];
+            popup_11d549131fe04bc0a4eec798db76c7e6.setContent(html_783c4fd6671a4232a08a57fde09ac81d);
+        
+
+        circle_marker_62ea590223e34f0cbb4dc3df8dcd446c.bindPopup(popup_11d549131fe04bc0a4eec798db76c7e6)
+        ;
+
+        
+    
+    
+            var circle_marker_7f94b91c06da4ce686680838838ef549 = L.circleMarker(
+                [43.771045, -79.42789],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_05d16264702e4f3e9da5e438b582163a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bcd5789b2ce946c79c3cbc0222707114 = $(`<div id="html_bcd5789b2ce946c79c3cbc0222707114" style="width: 100.0%; height: 100.0%;">Senlac Rd.  South of Horsham Ave.  43.771045,-79.42789</div>`)[0];
+            popup_05d16264702e4f3e9da5e438b582163a.setContent(html_bcd5789b2ce946c79c3cbc0222707114);
+        
+
+        circle_marker_7f94b91c06da4ce686680838838ef549.bindPopup(popup_05d16264702e4f3e9da5e438b582163a)
+        ;
+
+        
+    
+    
+            var circle_marker_d25426616bd54df79e09f9ab9f6c960a = L.circleMarker(
+                [43.790911, -79.433572],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_6c38d4a0b46548caa073852b5e4b6700 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b83eef693f944768b03037982811ce8 = $(`<div id="html_4b83eef693f944768b03037982811ce8" style="width: 100.0%; height: 100.0%;">Cactus Ave.  North of Moore Park Ave.  43.790911,-79.433572</div>`)[0];
+            popup_6c38d4a0b46548caa073852b5e4b6700.setContent(html_4b83eef693f944768b03037982811ce8);
+        
+
+        circle_marker_d25426616bd54df79e09f9ab9f6c960a.bindPopup(popup_6c38d4a0b46548caa073852b5e4b6700)
+        ;
+
+        
+    
+    
+            var circle_marker_2a559efd6c3e4d87a50d2868383fe7cf = L.circleMarker(
+                [43.716203, -79.304936],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_3985099fe3c14bc08d1ca633a6144ee6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03df1ecf6e4145e2af34fb7a8b827f3b = $(`<div id="html_03df1ecf6e4145e2af34fb7a8b827f3b" style="width: 100.0%; height: 100.0%;">O'Connor Dr.  Near Wakunda Place.  43.716203,-79.304936</div>`)[0];
+            popup_3985099fe3c14bc08d1ca633a6144ee6.setContent(html_03df1ecf6e4145e2af34fb7a8b827f3b);
+        
+
+        circle_marker_2a559efd6c3e4d87a50d2868383fe7cf.bindPopup(popup_3985099fe3c14bc08d1ca633a6144ee6)
+        ;
+
+        
+    
+    
+            var circle_marker_b493a94f800c42f48393b21fcf84d205 = L.circleMarker(
+                [43.694671, -79.325581],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_b0ad21f68a8c4c87ac026ae81b58465d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_09b6679ed66b4d33b73f2409bec7c5f4 = $(`<div id="html_09b6679ed66b4d33b73f2409bec7c5f4" style="width: 100.0%; height: 100.0%;">Cosburn Ave.  West of Binswood Ave.  43.694671,-79.325581</div>`)[0];
+            popup_b0ad21f68a8c4c87ac026ae81b58465d.setContent(html_09b6679ed66b4d33b73f2409bec7c5f4);
+        
+
+        circle_marker_b493a94f800c42f48393b21fcf84d205.bindPopup(popup_b0ad21f68a8c4c87ac026ae81b58465d)
+        ;
+
+        
+    
+    
+            var circle_marker_a8210197d2964dc2bfd5ee76d0a19ed6 = L.circleMarker(
+                [43.716422, -79.24225],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_f13249b102234c7f9c5c32740c55a4c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_89bee64516344037be164fc3142207ff = $(`<div id="html_89bee64516344037be164fc3142207ff" style="width: 100.0%; height: 100.0%;">Kingston Rd. Near 2685 Kingston Rd.  43.716422,-79.24225</div>`)[0];
+            popup_f13249b102234c7f9c5c32740c55a4c9.setContent(html_89bee64516344037be164fc3142207ff);
+        
+
+        circle_marker_a8210197d2964dc2bfd5ee76d0a19ed6.bindPopup(popup_f13249b102234c7f9c5c32740c55a4c9)
+        ;
+
+        
+    
+    
+            var circle_marker_7038328d895e4e51b24ebd2392bbbe4e = L.circleMarker(
+                [43.724116, -79.231438],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_331a37dffe3f4db7bc19462156582869 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_172b75fc96404cddbecd79597487668a = $(`<div id="html_172b75fc96404cddbecd79597487668a" style="width: 100.0%; height: 100.0%;">Cathedral Bluffs Dr.  South of Kingston Rd.  43.724116,-79.231438</div>`)[0];
+            popup_331a37dffe3f4db7bc19462156582869.setContent(html_172b75fc96404cddbecd79597487668a);
+        
+
+        circle_marker_7038328d895e4e51b24ebd2392bbbe4e.bindPopup(popup_331a37dffe3f4db7bc19462156582869)
+        ;
+
+        
+    
+    
+            var circle_marker_597f8fda46194745bf28165110a92f62 = L.circleMarker(
+                [43.757184, -79.288809],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_cec4a294b2074967bbad19585dc0240d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f45aedb4247a45b38cfe806ca6d48615 = $(`<div id="html_f45aedb4247a45b38cfe806ca6d48615" style="width: 100.0%; height: 100.0%;">Birchmount Rd.  South of Ellendale Dr.  43.757184,-79.288809</div>`)[0];
+            popup_cec4a294b2074967bbad19585dc0240d.setContent(html_f45aedb4247a45b38cfe806ca6d48615);
+        
+
+        circle_marker_597f8fda46194745bf28165110a92f62.bindPopup(popup_cec4a294b2074967bbad19585dc0240d)
+        ;
+
+        
+    
+    
+            var circle_marker_96da6265f9a6448490dd9722b508f7ef = L.circleMarker(
+                [43.755324, -79.308006],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_aa0d7a54bb8a46b381d2da2f3bbe3881 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3306eecd18294e4fa36395092c24730d = $(`<div id="html_3306eecd18294e4fa36395092c24730d" style="width: 100.0%; height: 100.0%;">Dewey Dr.  East of Pharmacy Ave.  43.755324,-79.308006</div>`)[0];
+            popup_aa0d7a54bb8a46b381d2da2f3bbe3881.setContent(html_3306eecd18294e4fa36395092c24730d);
+        
+
+        circle_marker_96da6265f9a6448490dd9722b508f7ef.bindPopup(popup_aa0d7a54bb8a46b381d2da2f3bbe3881)
+        ;
+
+        
+    
+    
+            var circle_marker_96d4188b12d84af4a2c9092302bc491e = L.circleMarker(
+                [43.803327, -79.319553],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_b4a69917e01c4bcaa4584ba1aa0c6ee3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c5a9232554148319e9b9cf5c0ba6a18 = $(`<div id="html_7c5a9232554148319e9b9cf5c0ba6a18" style="width: 100.0%; height: 100.0%;">Warden Ave.  South of Glen Springs Dr.  43.803327,-79.319553</div>`)[0];
+            popup_b4a69917e01c4bcaa4584ba1aa0c6ee3.setContent(html_7c5a9232554148319e9b9cf5c0ba6a18);
+        
+
+        circle_marker_96d4188b12d84af4a2c9092302bc491e.bindPopup(popup_b4a69917e01c4bcaa4584ba1aa0c6ee3)
+        ;
+
+        
+    
+    
+            var circle_marker_a2a05f5eb2f441faa508bb38bb73c7a4 = L.circleMarker(
+                [43.788597, -79.281572],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_8f1a7a4c2c354380a68bb1e3710c87f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4660a0b396a4c118b3edd9a1c25231c = $(`<div id="html_b4660a0b396a4c118b3edd9a1c25231c" style="width: 100.0%; height: 100.0%;">Lockie Ave.  East of Donalda Cres.  43.788597,-79.281572</div>`)[0];
+            popup_8f1a7a4c2c354380a68bb1e3710c87f4.setContent(html_b4660a0b396a4c118b3edd9a1c25231c);
+        
+
+        circle_marker_a2a05f5eb2f441faa508bb38bb73c7a4.bindPopup(popup_8f1a7a4c2c354380a68bb1e3710c87f4)
+        ;
+
+        
+    
+    
+            var circle_marker_895176ac0d5942568110d1e38a5cf3d3 = L.circleMarker(
+                [43.815932, -79.229572],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_eb35937be9a74872a061022b1ff33ab7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_15d52aaeecb049da8f52e531724ac773 = $(`<div id="html_15d52aaeecb049da8f52e531724ac773" style="width: 100.0%; height: 100.0%;">Finch Ave. E.  West of Neilson Rd.  43.815932,-79.229572</div>`)[0];
+            popup_eb35937be9a74872a061022b1ff33ab7.setContent(html_15d52aaeecb049da8f52e531724ac773);
+        
+
+        circle_marker_895176ac0d5942568110d1e38a5cf3d3.bindPopup(popup_eb35937be9a74872a061022b1ff33ab7)
+        ;
+
+        
+    
+    
+            var circle_marker_dedd44b671bd46379ce5fd4e63c7bb46 = L.circleMarker(
+                [43.79808, -79.243791],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_0b073c4619764ceb8dda79fbc7e1af3e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad017afff5be4f9b8938c9cdf7ea2e63 = $(`<div id="html_ad017afff5be4f9b8938c9cdf7ea2e63" style="width: 100.0%; height: 100.0%;">Nugget Ave.  East of Transfer Place.  43.79808,-79.243791</div>`)[0];
+            popup_0b073c4619764ceb8dda79fbc7e1af3e.setContent(html_ad017afff5be4f9b8938c9cdf7ea2e63);
+        
+
+        circle_marker_dedd44b671bd46379ce5fd4e63c7bb46.bindPopup(popup_0b073c4619764ceb8dda79fbc7e1af3e)
+        ;
+
+        
+    
+    
+            var circle_marker_45ec5b8458184d3691c3aa268c3527e6 = L.circleMarker(
+                [43.76879, -79.23978],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_99a05fba203e443caff4ee50c754027a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec6776527470452f92ad1e1a0221af72 = $(`<div id="html_ec6776527470452f92ad1e1a0221af72" style="width: 100.0%; height: 100.0%;">Bellamy Rd. N.  South of Northleigh Dr.  43.76879,-79.23978</div>`)[0];
+            popup_99a05fba203e443caff4ee50c754027a.setContent(html_ec6776527470452f92ad1e1a0221af72);
+        
+
+        circle_marker_45ec5b8458184d3691c3aa268c3527e6.bindPopup(popup_99a05fba203e443caff4ee50c754027a)
+        ;
+
+        
+    
+    
+            var circle_marker_f13a2109060446ee8d75dd6a96426b3a = L.circleMarker(
+                [43.770597, -79.235848],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_5a4202d52466449e9f48744a594a85c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d37344cbcd9b41b6a5f60c53b248c842 = $(`<div id="html_d37344cbcd9b41b6a5f60c53b248c842" style="width: 100.0%; height: 100.0%;">Brimorton Dr.  Near Amberjack Blvd.  43.770597,-79.235848</div>`)[0];
+            popup_5a4202d52466449e9f48744a594a85c0.setContent(html_d37344cbcd9b41b6a5f60c53b248c842);
+        
+
+        circle_marker_f13a2109060446ee8d75dd6a96426b3a.bindPopup(popup_5a4202d52466449e9f48744a594a85c0)
+        ;
+
+        
+    
+    
+            var circle_marker_16deb131d2f94d73abc537394637f7c0 = L.circleMarker(
+                [43.769012, -79.175677],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_abe721083fe243588d09d1b6d4ef48f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_755b25c9b8424ad494710a87d9066e53 = $(`<div id="html_755b25c9b8424ad494710a87d9066e53" style="width: 100.0%; height: 100.0%;">Manse Rd.  Near 292 Manse Rd.  43.769012,-79.175677</div>`)[0];
+            popup_abe721083fe243588d09d1b6d4ef48f3.setContent(html_755b25c9b8424ad494710a87d9066e53);
+        
+
+        circle_marker_16deb131d2f94d73abc537394637f7c0.bindPopup(popup_abe721083fe243588d09d1b6d4ef48f3)
+        ;
+
+        
+    
+    
+            var circle_marker_f164b3c648ca4178870a327e17389174 = L.circleMarker(
+                [43.804738, -79.212114],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_10c715fa91d8465db10265c7be5425bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_12a1d5e5c9c5450491b2390ce28c2cb7 = $(`<div id="html_12a1d5e5c9c5450491b2390ce28c2cb7" style="width: 100.0%; height: 100.0%;">Wickson Trail  West of Brenyon Way  43.804738,-79.212114</div>`)[0];
+            popup_10c715fa91d8465db10265c7be5425bf.setContent(html_12a1d5e5c9c5450491b2390ce28c2cb7);
+        
+
+        circle_marker_f164b3c648ca4178870a327e17389174.bindPopup(popup_10c715fa91d8465db10265c7be5425bf)
+        ;
+
+        
+    
+    
+            var circle_marker_dc538a303b5a4499ab29091486e8b05e = L.circleMarker(
+                [43.734476, -79.59055],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_1245c1aa35e34ebe8864adae3d7b670d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3421984325c4362be8241d7419577c3 = $(`<div id="html_a3421984325c4362be8241d7419577c3" style="width: 100.0%; height: 100.0%;">Martin Grove Rd. North of Rampart Rd  43.734476,-79.59055</div>`)[0];
+            popup_1245c1aa35e34ebe8864adae3d7b670d.setContent(html_a3421984325c4362be8241d7419577c3);
+        
+
+        circle_marker_dc538a303b5a4499ab29091486e8b05e.bindPopup(popup_1245c1aa35e34ebe8864adae3d7b670d)
+        ;
+
+        
+    
+    
+            var circle_marker_7dc87e562560440aa83f52575eccbd42 = L.circleMarker(
+                [43.682991, -79.568876],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_8487926344b04314a9d8a47ddcf4eefa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8258d21ecc774f9eb64614d0d7b96075 = $(`<div id="html_8258d21ecc774f9eb64614d0d7b96075" style="width: 100.0%; height: 100.0%;">Redgrave Dr. West of Martin Grove Rd.  43.682991,-79.568876</div>`)[0];
+            popup_8487926344b04314a9d8a47ddcf4eefa.setContent(html_8258d21ecc774f9eb64614d0d7b96075);
+        
+
+        circle_marker_7dc87e562560440aa83f52575eccbd42.bindPopup(popup_8487926344b04314a9d8a47ddcf4eefa)
+        ;
+
+        
+    
+    
+            var circle_marker_7dccbd2609c44106a6b7603c9eb12dab = L.circleMarker(
+                [43.684999, -79.527765],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_a2ce08d5ba994ea0855f3a7201a32cae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46b8757a13f7462a8486de3869759fb9 = $(`<div id="html_46b8757a13f7462a8486de3869759fb9" style="width: 100.0%; height: 100.0%;">Royal York Rd. North of La Rose Ave.  43.684999,-79.527765</div>`)[0];
+            popup_a2ce08d5ba994ea0855f3a7201a32cae.setContent(html_46b8757a13f7462a8486de3869759fb9);
+        
+
+        circle_marker_7dccbd2609c44106a6b7603c9eb12dab.bindPopup(popup_a2ce08d5ba994ea0855f3a7201a32cae)
+        ;
+
+        
+    
+    
+            var circle_marker_26b0c9ec3bdb4f98a427e101d1df9d2b = L.circleMarker(
+                [43.640695, -79.58549],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_de422f34a46e4c52b0375bf59a1e1e07 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b8fe3ad1782f497f898696e48b6d24a2 = $(`<div id="html_b8fe3ad1782f497f898696e48b6d24a2" style="width: 100.0%; height: 100.0%;">Mill Rd. North of Burnhamthorpe Rd.  43.640695,-79.58549</div>`)[0];
+            popup_de422f34a46e4c52b0375bf59a1e1e07.setContent(html_b8fe3ad1782f497f898696e48b6d24a2);
+        
+
+        circle_marker_26b0c9ec3bdb4f98a427e101d1df9d2b.bindPopup(popup_de422f34a46e4c52b0375bf59a1e1e07)
+        ;
+
+        
+    
+    
+            var circle_marker_8ca1ba72abec43269fad5d924d7a9f03 = L.circleMarker(
+                [43.633225, -79.555593],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_e9c9a6b905b54cf882fc58500fd6ea75 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6531cac0eda449c98d5b9abddc5c0ce7 = $(`<div id="html_6531cac0eda449c98d5b9abddc5c0ce7" style="width: 100.0%; height: 100.0%;">The East Mall South of Faludon Court  43.633225,-79.555593</div>`)[0];
+            popup_e9c9a6b905b54cf882fc58500fd6ea75.setContent(html_6531cac0eda449c98d5b9abddc5c0ce7);
+        
+
+        circle_marker_8ca1ba72abec43269fad5d924d7a9f03.bindPopup(popup_e9c9a6b905b54cf882fc58500fd6ea75)
+        ;
+
+        
+    
+    
+            var circle_marker_f3ff821455974791a9971a8283e32bea = L.circleMarker(
+                [43.615495, -79.507852],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_2ed4fed882e4474681b343e48fd363d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b566eeddba54e8b92600ee8bdf770e0 = $(`<div id="html_0b566eeddba54e8b92600ee8bdf770e0" style="width: 100.0%; height: 100.0%;">Ourland Ave. Near Merriday St  43.615495,-79.507852</div>`)[0];
+            popup_2ed4fed882e4474681b343e48fd363d5.setContent(html_0b566eeddba54e8b92600ee8bdf770e0);
+        
+
+        circle_marker_f3ff821455974791a9971a8283e32bea.bindPopup(popup_2ed4fed882e4474681b343e48fd363d5)
+        ;
+
+        
+    
+    
+            var circle_marker_6de94a78b1554e2db733f18ee555cb6f = L.circleMarker(
+                [43.64253, -79.45528],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_fa3ab9847eeb4d12b2c2743d14327408 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bbf62b583ff94dc483753eea5ce31b1a = $(`<div id="html_bbf62b583ff94dc483753eea5ce31b1a" style="width: 100.0%; height: 100.0%;">Parkside Dr. South of Algonquin Ave  43.64253,-79.45528</div>`)[0];
+            popup_fa3ab9847eeb4d12b2c2743d14327408.setContent(html_bbf62b583ff94dc483753eea5ce31b1a);
+        
+
+        circle_marker_6de94a78b1554e2db733f18ee555cb6f.bindPopup(popup_fa3ab9847eeb4d12b2c2743d14327408)
+        ;
+
+        
+    
+    
+            var circle_marker_74b1ac06b05b4d3ab736e48b298f6476 = L.circleMarker(
+                [43.655081, -79.477902],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_d58cb1a45d9b40e8822cb55f10ad0cc2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81956572690f4d8ab271df5f34fa6f11 = $(`<div id="html_81956572690f4d8ab271df5f34fa6f11" style="width: 100.0%; height: 100.0%;">Runnymede Rd. North of Colbeck St.  43.655081,-79.477902</div>`)[0];
+            popup_d58cb1a45d9b40e8822cb55f10ad0cc2.setContent(html_81956572690f4d8ab271df5f34fa6f11);
+        
+
+        circle_marker_74b1ac06b05b4d3ab736e48b298f6476.bindPopup(popup_d58cb1a45d9b40e8822cb55f10ad0cc2)
+        ;
+
+        
+    
+    
+            var circle_marker_1463980832d341b19655b89026dfbec7 = L.circleMarker(
+                [43.670715, -79.502786],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_72d57201dfed4cdc8e84c5a5661ddade = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d150a0295f3b4c0aa2a8360ed7fc521a = $(`<div id="html_d150a0295f3b4c0aa2a8360ed7fc521a" style="width: 100.0%; height: 100.0%;">Scarlett Rd. South of Ellins Ave.  43.670715,-79.502786</div>`)[0];
+            popup_72d57201dfed4cdc8e84c5a5661ddade.setContent(html_d150a0295f3b4c0aa2a8360ed7fc521a);
+        
+
+        circle_marker_1463980832d341b19655b89026dfbec7.bindPopup(popup_72d57201dfed4cdc8e84c5a5661ddade)
+        ;
+
+        
+    
+    
+            var circle_marker_70d524613e8546ffaa888ce695568fe7 = L.circleMarker(
+                [43.711518, -79.51697],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_634e09a62a154593ab5c99b59ea428be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_077f8296a7c044bb8beac1677a649f74 = $(`<div id="html_077f8296a7c044bb8beac1677a649f74" style="width: 100.0%; height: 100.0%;">Gary Dr. Near Deerhurst Ave.  43.711518,-79.51697</div>`)[0];
+            popup_634e09a62a154593ab5c99b59ea428be.setContent(html_077f8296a7c044bb8beac1677a649f74);
+        
+
+        circle_marker_70d524613e8546ffaa888ce695568fe7.bindPopup(popup_634e09a62a154593ab5c99b59ea428be)
+        ;
+
+        
+    
+    
+            var circle_marker_76696a549da041fc80cae7b16188053b = L.circleMarker(
+                [43.764017, -79.465845],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_c37aaff9f79a4c42b7afcd9253d5bd79 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_610d1fa84bc34e9fb18f2d41cf8707c4 = $(`<div id="html_610d1fa84bc34e9fb18f2d41cf8707c4" style="width: 100.0%; height: 100.0%;">Dufferin St. North of Stanstead Dr.  43.764017,-79.465845</div>`)[0];
+            popup_c37aaff9f79a4c42b7afcd9253d5bd79.setContent(html_610d1fa84bc34e9fb18f2d41cf8707c4);
+        
+
+        circle_marker_76696a549da041fc80cae7b16188053b.bindPopup(popup_c37aaff9f79a4c42b7afcd9253d5bd79)
+        ;
+
+        
+    
+    
+            var circle_marker_1585867483dd47b9b723a8e7fc4cda85 = L.circleMarker(
+                [43.75096, -79.491983],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_08b4578b5ab240bd95e2486f6e3cc3f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_583e72e177c248e2965d70d474883c1f = $(`<div id="html_583e72e177c248e2965d70d474883c1f" style="width: 100.0%; height: 100.0%;">Stilecroft Dr. West of Sharpecroft Blvd.  43.75096,-79.491983</div>`)[0];
+            popup_08b4578b5ab240bd95e2486f6e3cc3f9.setContent(html_583e72e177c248e2965d70d474883c1f);
+        
+
+        circle_marker_1585867483dd47b9b723a8e7fc4cda85.bindPopup(popup_08b4578b5ab240bd95e2486f6e3cc3f9)
+        ;
+
+        
+    
+    
+            var circle_marker_5e481defd2f449ee87fa6fc3633bed4b = L.circleMarker(
+                [43.739993, -79.539617],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_ac3bacd6f8d1401abf68fcfc9d5f129e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1949b870d086403a9fbbe527b644bbb2 = $(`<div id="html_1949b870d086403a9fbbe527b644bbb2" style="width: 100.0%; height: 100.0%;">Weston Rd. Near Coronado Court  43.739993,-79.539617</div>`)[0];
+            popup_ac3bacd6f8d1401abf68fcfc9d5f129e.setContent(html_1949b870d086403a9fbbe527b644bbb2);
+        
+
+        circle_marker_5e481defd2f449ee87fa6fc3633bed4b.bindPopup(popup_ac3bacd6f8d1401abf68fcfc9d5f129e)
+        ;
+
+        
+    
+    
+            var circle_marker_b82f649883844f68928690c57741e7c1 = L.circleMarker(
+                [43.74265, -79.509951],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_66b9b193dc0d4aa59fe406db123526c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_68a9713b03474e8189f2754b9d2fba2c = $(`<div id="html_68a9713b03474e8189f2754b9d2fba2c" style="width: 100.0%; height: 100.0%;">Spenvalley Dr. Near Whitbread Cres.  43.74265,-79.509951</div>`)[0];
+            popup_66b9b193dc0d4aa59fe406db123526c9.setContent(html_68a9713b03474e8189f2754b9d2fba2c);
+        
+
+        circle_marker_b82f649883844f68928690c57741e7c1.bindPopup(popup_66b9b193dc0d4aa59fe406db123526c9)
+        ;
+
+        
+    
+    
+            var circle_marker_f51421aaa68947b0918bdf86f1446685 = L.circleMarker(
+                [43.711893, -79.454245],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_f9e23b4b41fe49ee90feb9808cf5f972 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_124ceec1a8864135adb4dd5b7ccf8718 = $(`<div id="html_124ceec1a8864135adb4dd5b7ccf8718" style="width: 100.0%; height: 100.0%;">Dufferin St. South of Claver Ave.  43.711893,-79.454245</div>`)[0];
+            popup_f9e23b4b41fe49ee90feb9808cf5f972.setContent(html_124ceec1a8864135adb4dd5b7ccf8718);
+        
+
+        circle_marker_f51421aaa68947b0918bdf86f1446685.bindPopup(popup_f9e23b4b41fe49ee90feb9808cf5f972)
+        ;
+
+        
+    
+    
+            var circle_marker_5c3f431aff0f45f8a0d0a20c97bb4e12 = L.circleMarker(
+                [43.719926, -79.45838],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_7a0785af7fd144f4935b24ff97cb51ee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_51f0d557aa7a4e6eb81d7c04708b93c5 = $(`<div id="html_51f0d557aa7a4e6eb81d7c04708b93c5" style="width: 100.0%; height: 100.0%;">Orfus Rd. West of Dufferin St.  43.719926,-79.45838</div>`)[0];
+            popup_7a0785af7fd144f4935b24ff97cb51ee.setContent(html_51f0d557aa7a4e6eb81d7c04708b93c5);
+        
+
+        circle_marker_5c3f431aff0f45f8a0d0a20c97bb4e12.bindPopup(popup_7a0785af7fd144f4935b24ff97cb51ee)
+        ;
+
+        
+    
+    
+            var circle_marker_abb699f7794e462da221c385ce995b4d = L.circleMarker(
+                [43.683325, -79.46086],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_4f442a90a60a443a93456ca755854fe6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_15cd39584d21423aa7a88ddf3567faca = $(`<div id="html_15cd39584d21423aa7a88ddf3567faca" style="width: 100.0%; height: 100.0%;">Rogers Rd. Near 382 Rogers Rd.  43.683325,-79.46086</div>`)[0];
+            popup_4f442a90a60a443a93456ca755854fe6.setContent(html_15cd39584d21423aa7a88ddf3567faca);
+        
+
+        circle_marker_abb699f7794e462da221c385ce995b4d.bindPopup(popup_4f442a90a60a443a93456ca755854fe6)
+        ;
+
+        
+    
+    
+            var circle_marker_0831fa7f0f4a45b6b655f09228605fe9 = L.circleMarker(
+                [43.656124, -79.433906],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_bf95889aec384b90a5f302dce6ce1473 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7c62e27982b4cd9a6015464adfb430a = $(`<div id="html_b7c62e27982b4cd9a6015464adfb430a" style="width: 100.0%; height: 100.0%;">Dufferin St. South of Dufferin Park Ave.  43.656124,-79.433906</div>`)[0];
+            popup_bf95889aec384b90a5f302dce6ce1473.setContent(html_b7c62e27982b4cd9a6015464adfb430a);
+        
+
+        circle_marker_0831fa7f0f4a45b6b655f09228605fe9.bindPopup(popup_bf95889aec384b90a5f302dce6ce1473)
+        ;
+
+        
+    
+    
+            var circle_marker_0c09c4964cd94fa6b81309be1bc58129 = L.circleMarker(
+                [43.650557, -79.401657],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_b002b4e5fe9848a686f774aa1a476730 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61471620f04e4cc6845226b7a27c38f5 = $(`<div id="html_61471620f04e4cc6845226b7a27c38f5" style="width: 100.0%; height: 100.0%;">Denison Ave. South of Grange Ave.  43.650557,-79.401657</div>`)[0];
+            popup_b002b4e5fe9848a686f774aa1a476730.setContent(html_61471620f04e4cc6845226b7a27c38f5);
+        
+
+        circle_marker_0c09c4964cd94fa6b81309be1bc58129.bindPopup(popup_b002b4e5fe9848a686f774aa1a476730)
+        ;
+
+        
+    
+    
+            var circle_marker_c0cc30b8af1b4fb185c62c98ab79d782 = L.circleMarker(
+                [43.645661, -79.397891],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_6ad22d948d57403286ae6497062d615f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e85a9b921e543f1a81aa39fb5b28a28 = $(`<div id="html_3e85a9b921e543f1a81aa39fb5b28a28" style="width: 100.0%; height: 100.0%;">Brant St. South of Adelaide St. W.  43.645661,-79.397891</div>`)[0];
+            popup_6ad22d948d57403286ae6497062d615f.setContent(html_3e85a9b921e543f1a81aa39fb5b28a28);
+        
+
+        circle_marker_c0cc30b8af1b4fb185c62c98ab79d782.bindPopup(popup_6ad22d948d57403286ae6497062d615f)
+        ;
+
+        
+    
+    
+            var circle_marker_dc481a57a1a04909b5e2ede99ea7e5d4 = L.circleMarker(
+                [43.665554, -79.40321],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_9449366e406a4796b0d12cf1175fcac2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_65a9133c71f14f6392ff520044f97a70 = $(`<div id="html_65a9133c71f14f6392ff520044f97a70" style="width: 100.0%; height: 100.0%;">Spadina Ave. South of Bloor St. W.  43.665554,-79.40321</div>`)[0];
+            popup_9449366e406a4796b0d12cf1175fcac2.setContent(html_65a9133c71f14f6392ff520044f97a70);
+        
+
+        circle_marker_dc481a57a1a04909b5e2ede99ea7e5d4.bindPopup(popup_9449366e406a4796b0d12cf1175fcac2)
+        ;
+
+        
+    
+    
+            var circle_marker_0f0f06ea69a44b0684ef5775591fa837 = L.circleMarker(
+                [43.661677, -79.415117],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_2639b576598d478e973976cc49de853f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7beeb6b7b09d4dc4b49149c565ec2ce3 = $(`<div id="html_7beeb6b7b09d4dc4b49149c565ec2ce3" style="width: 100.0%; height: 100.0%;">Manning Ave. South of Lennox St.  43.661677,-79.415117</div>`)[0];
+            popup_2639b576598d478e973976cc49de853f.setContent(html_7beeb6b7b09d4dc4b49149c565ec2ce3);
+        
+
+        circle_marker_0f0f06ea69a44b0684ef5775591fa837.bindPopup(popup_2639b576598d478e973976cc49de853f)
+        ;
+
+        
+    
+    
+            var circle_marker_f88c673286fa4cce9ad2cf7f175a43c5 = L.circleMarker(
+                [43.679447, -79.436545],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_784df5d6a11e4e8d9141c9d9b500c9ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1a74cf1c43647b19ed5de8c38f75b2c = $(`<div id="html_c1a74cf1c43647b19ed5de8c38f75b2c" style="width: 100.0%; height: 100.0%;">St. Clair Ave. W. Near Crang Ave.  43.679447,-79.436545</div>`)[0];
+            popup_784df5d6a11e4e8d9141c9d9b500c9ac.setContent(html_c1a74cf1c43647b19ed5de8c38f75b2c);
+        
+
+        circle_marker_f88c673286fa4cce9ad2cf7f175a43c5.bindPopup(popup_784df5d6a11e4e8d9141c9d9b500c9ac)
+        ;
+
+        
+    
+    
+            var circle_marker_1327dd4a3baf486290ab883b440584a6 = L.circleMarker(
+                [43.690725, -79.408331],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_0a87c908ce3741a1a3cbab9030e5dd11 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9820d97758a14010a10294317b91d1e8 = $(`<div id="html_9820d97758a14010a10294317b91d1e8" style="width: 100.0%; height: 100.0%;">Warren Rd. North of Lonsdale Rd.  43.690725,-79.408331</div>`)[0];
+            popup_0a87c908ce3741a1a3cbab9030e5dd11.setContent(html_9820d97758a14010a10294317b91d1e8);
+        
+
+        circle_marker_1327dd4a3baf486290ab883b440584a6.bindPopup(popup_0a87c908ce3741a1a3cbab9030e5dd11)
+        ;
+
+        
+    
+    
+            var circle_marker_9d4d0bd23a734a8cbc793bfb93ee7b14 = L.circleMarker(
+                [43.6629, -79.374423],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_45829eede81a432e839388c9c09d5ff1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2fcc91f88663482a8107f43a19c3fd8a = $(`<div id="html_2fcc91f88663482a8107f43a19c3fd8a" style="width: 100.0%; height: 100.0%;">Carlton St. Near Homewood Ave.  43.6629,-79.374423</div>`)[0];
+            popup_45829eede81a432e839388c9c09d5ff1.setContent(html_2fcc91f88663482a8107f43a19c3fd8a);
+        
+
+        circle_marker_9d4d0bd23a734a8cbc793bfb93ee7b14.bindPopup(popup_45829eede81a432e839388c9c09d5ff1)
+        ;
+
+        
+    
+    
+            var circle_marker_285e29a0279c40ea8a18e7c31278033b = L.circleMarker(
+                [43.657748, -79.361327],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_0b44165cb29d42b380baba521b03e5d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4a6ee3daf48436a81af55489209e763 = $(`<div id="html_c4a6ee3daf48436a81af55489209e763" style="width: 100.0%; height: 100.0%;">Shuter St. East of Sackville St.  43.657748,-79.361327</div>`)[0];
+            popup_0b44165cb29d42b380baba521b03e5d7.setContent(html_c4a6ee3daf48436a81af55489209e763);
+        
+
+        circle_marker_285e29a0279c40ea8a18e7c31278033b.bindPopup(popup_0b44165cb29d42b380baba521b03e5d7)
+        ;
+
+        
+    
+    
+            var circle_marker_ca5181f6586d496bbfc1fed1ac8df6e1 = L.circleMarker(
+                [43.697391, -79.331149],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_cd12e285c0d74721adc359e551fb0aa1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8614782d935d44b39c2a6218f6f7121d = $(`<div id="html_8614782d935d44b39c2a6218f6f7121d" style="width: 100.0%; height: 100.0%;">O'Connor Dr. West of Lankin Blvd.  43.697391,-79.331149</div>`)[0];
+            popup_cd12e285c0d74721adc359e551fb0aa1.setContent(html_8614782d935d44b39c2a6218f6f7121d);
+        
+
+        circle_marker_ca5181f6586d496bbfc1fed1ac8df6e1.bindPopup(popup_cd12e285c0d74721adc359e551fb0aa1)
+        ;
+
+        
+    
+    
+            var circle_marker_db097b78949248e7a8c6e4a0d39b868f = L.circleMarker(
+                [43.693481, -79.331208],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_cc0667713eff409a81d00f21cd9d92f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e161c956ef141e9a2693214d8887727 = $(`<div id="html_9e161c956ef141e9a2693214d8887727" style="width: 100.0%; height: 100.0%;">Cosburn Ave. Near Roosevelt Rd.  43.693481,-79.331208</div>`)[0];
+            popup_cc0667713eff409a81d00f21cd9d92f5.setContent(html_9e161c956ef141e9a2693214d8887727);
+        
+
+        circle_marker_db097b78949248e7a8c6e4a0d39b868f.bindPopup(popup_cc0667713eff409a81d00f21cd9d92f5)
+        ;
+
+        
+    
+    
+            var circle_marker_abd9193ce2624f91801ed3ddb68801fd = L.circleMarker(
+                [43.75107, -79.372501],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_b10c45412b414816a1a08a2bd3d1d924 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_91b6da432e784127b45e7e6909f6dd61 = $(`<div id="html_91b6da432e784127b45e7e6909f6dd61" style="width: 100.0%; height: 100.0%;">York Mills Rd. West of Banbury Rd.  43.75107,-79.372501</div>`)[0];
+            popup_b10c45412b414816a1a08a2bd3d1d924.setContent(html_91b6da432e784127b45e7e6909f6dd61);
+        
+
+        circle_marker_abd9193ce2624f91801ed3ddb68801fd.bindPopup(popup_b10c45412b414816a1a08a2bd3d1d924)
+        ;
+
+        
+    
+    
+            var circle_marker_ca2f349d5c504226b8307bbcf4d3003c = L.circleMarker(
+                [43.72947, -79.366913],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_444aad83c0bd49158165346f50c717b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c34c1c0f875944aebdb8dab8cb6bf272 = $(`<div id="html_c34c1c0f875944aebdb8dab8cb6bf272" style="width: 100.0%; height: 100.0%;">Park Lane Circle Near 60 Park Lane Circle  43.72947,-79.366913</div>`)[0];
+            popup_444aad83c0bd49158165346f50c717b5.setContent(html_c34c1c0f875944aebdb8dab8cb6bf272);
+        
+
+        circle_marker_ca2f349d5c504226b8307bbcf4d3003c.bindPopup(popup_444aad83c0bd49158165346f50c717b5)
+        ;
+
+        
+    
+    
+            var circle_marker_064152d8943c4fefb87357e99ea8b23a = L.circleMarker(
+                [43.73556, -79.340394],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_da3dc6dbdba0484f90e541037d110fcc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2c944893c9a14bd1a27b5f039c0c65a2 = $(`<div id="html_2c944893c9a14bd1a27b5f039c0c65a2" style="width: 100.0%; height: 100.0%;">The Donway E. North of Greenland Rd  43.73556,-79.340394</div>`)[0];
+            popup_da3dc6dbdba0484f90e541037d110fcc.setContent(html_2c944893c9a14bd1a27b5f039c0c65a2);
+        
+
+        circle_marker_064152d8943c4fefb87357e99ea8b23a.bindPopup(popup_da3dc6dbdba0484f90e541037d110fcc)
+        ;
+
+        
+    
+    
+            var circle_marker_5b4702cd9867445fa9d17c8e2d054742 = L.circleMarker(
+                [43.739579, -79.346563],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_e228ab435ff74beb9ee6fc881c45a64b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_85988f1896fd42728b48b75c4e3548d5 = $(`<div id="html_85988f1896fd42728b48b75c4e3548d5" style="width: 100.0%; height: 100.0%;">The Donway W. Near Duncairn Rd.  43.739579,-79.346563</div>`)[0];
+            popup_e228ab435ff74beb9ee6fc881c45a64b.setContent(html_85988f1896fd42728b48b75c4e3548d5);
+        
+
+        circle_marker_5b4702cd9867445fa9d17c8e2d054742.bindPopup(popup_e228ab435ff74beb9ee6fc881c45a64b)
+        ;
+
+        
+    
+    
+            var circle_marker_b50d01f23cf64882b3f7ff8a2836602a = L.circleMarker(
+                [43.800338, -79.349958],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_cdf4f093efa743a79bf48312b671e03f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d9aefd021994d2986bb5a28ba3631b8 = $(`<div id="html_3d9aefd021994d2986bb5a28ba3631b8" style="width: 100.0%; height: 100.0%;">McNicoll Ave. Near Sexton Cres.  43.800338,-79.349958</div>`)[0];
+            popup_cdf4f093efa743a79bf48312b671e03f.setContent(html_3d9aefd021994d2986bb5a28ba3631b8);
+        
+
+        circle_marker_b50d01f23cf64882b3f7ff8a2836602a.bindPopup(popup_cdf4f093efa743a79bf48312b671e03f)
+        ;
+
+        
+    
+    
+            var circle_marker_5863506f3dbf4d75a638c86c27401672 = L.circleMarker(
+                [43.808397, -79.358381],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_8d2e09a1ba8a4e6299c04e632a5355a9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_33ab530714bd4772a22bea4d6c1a8919 = $(`<div id="html_33ab530714bd4772a22bea4d6c1a8919" style="width: 100.0%; height: 100.0%;">Don Mills Rd. South of Freshmeadow Dr.  43.808397,-79.358381</div>`)[0];
+            popup_8d2e09a1ba8a4e6299c04e632a5355a9.setContent(html_33ab530714bd4772a22bea4d6c1a8919);
+        
+
+        circle_marker_5863506f3dbf4d75a638c86c27401672.bindPopup(popup_8d2e09a1ba8a4e6299c04e632a5355a9)
+        ;
+
+        
+    
+    
+            var circle_marker_649bf892f0ff4620886d9a57f14cfc8b = L.circleMarker(
+                [43.784425, -79.394383],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_5e141648472c458d97743ea8dcc10c6d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aa5894c5224046c299221558e47f09e5 = $(`<div id="html_aa5894c5224046c299221558e47f09e5" style="width: 100.0%; height: 100.0%;">Finch Ave. E. Near Manorcrest Dr.  43.784425,-79.394383</div>`)[0];
+            popup_5e141648472c458d97743ea8dcc10c6d.setContent(html_aa5894c5224046c299221558e47f09e5);
+        
+
+        circle_marker_649bf892f0ff4620886d9a57f14cfc8b.bindPopup(popup_5e141648472c458d97743ea8dcc10c6d)
+        ;
+
+        
+    
+    
+            var circle_marker_71623312f72f4dc997bf1c1b1643dfc7 = L.circleMarker(
+                [43.771093, -79.424087],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_9a19f7d8ff8444079a9111cc76013077 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ff51d336ba147e9a73913a2711b76c3 = $(`<div id="html_2ff51d336ba147e9a73913a2711b76c3" style="width: 100.0%; height: 100.0%;">Churchill Ave. West of Abbotsford Rd.  43.771093,-79.424087</div>`)[0];
+            popup_9a19f7d8ff8444079a9111cc76013077.setContent(html_2ff51d336ba147e9a73913a2711b76c3);
+        
+
+        circle_marker_71623312f72f4dc997bf1c1b1643dfc7.bindPopup(popup_9a19f7d8ff8444079a9111cc76013077)
+        ;
+
+        
+    
+    
+            var circle_marker_b1a4292491294e2c9d5894b80df3bfc5 = L.circleMarker(
+                [43.704869, -79.316731],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_e352752625ce4feebc3ef7ce402898e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3e4686a13a84d0692b09977ed1fede4 = $(`<div id="html_c3e4686a13a84d0692b09977ed1fede4" style="width: 100.0%; height: 100.0%;">St. Clair Ave. E. West of Marilyn Cres.  43.704869,-79.316731</div>`)[0];
+            popup_e352752625ce4feebc3ef7ce402898e2.setContent(html_c3e4686a13a84d0692b09977ed1fede4);
+        
+
+        circle_marker_b1a4292491294e2c9d5894b80df3bfc5.bindPopup(popup_e352752625ce4feebc3ef7ce402898e2)
+        ;
+
+        
+    
+    
+            var circle_marker_a151e9178a34404f8252be0b73fabd96 = L.circleMarker(
+                [43.67979, -79.29461],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_e8fa987a9284462e8dce77768abcecd7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e103592f9a043139bde2d67d5545134 = $(`<div id="html_9e103592f9a043139bde2d67d5545134" style="width: 100.0%; height: 100.0%;">Kingston Rd. Near Glen Manor Dr.  43.67979,-79.29461</div>`)[0];
+            popup_e8fa987a9284462e8dce77768abcecd7.setContent(html_9e103592f9a043139bde2d67d5545134);
+        
+
+        circle_marker_a151e9178a34404f8252be0b73fabd96.bindPopup(popup_e8fa987a9284462e8dce77768abcecd7)
+        ;
+
+        
+    
+    
+            var circle_marker_01b07a9a3769484abfdd104ab32dbf65 = L.circleMarker(
+                [43.697953, -79.261283],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_44ec4689388743a19b15fa5b7da4d28a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c8a50e3a9c546dcbde38574d68c92f6 = $(`<div id="html_8c8a50e3a9c546dcbde38574d68c92f6" style="width: 100.0%; height: 100.0%;">Danforth Ave. East of Birchmount Rd.  43.697953,-79.261283</div>`)[0];
+            popup_44ec4689388743a19b15fa5b7da4d28a.setContent(html_8c8a50e3a9c546dcbde38574d68c92f6);
+        
+
+        circle_marker_01b07a9a3769484abfdd104ab32dbf65.bindPopup(popup_44ec4689388743a19b15fa5b7da4d28a)
+        ;
+
+        
+    
+    
+            var circle_marker_34a668cf7aee45d59c2714acb4fc63ee = L.circleMarker(
+                [43.725593, -79.263597],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_d416b3cd271241e68b5d84506a2a6ddc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d7c2047e07e41bb8fd6d4bc2cc7ddb8 = $(`<div id="html_8d7c2047e07e41bb8fd6d4bc2cc7ddb8" style="width: 100.0%; height: 100.0%;">Corvette Ave. Near Cleta Dr.  43.725593,-79.263597</div>`)[0];
+            popup_d416b3cd271241e68b5d84506a2a6ddc.setContent(html_8d7c2047e07e41bb8fd6d4bc2cc7ddb8);
+        
+
+        circle_marker_34a668cf7aee45d59c2714acb4fc63ee.bindPopup(popup_d416b3cd271241e68b5d84506a2a6ddc)
+        ;
+
+        
+    
+    
+            var circle_marker_2f4b9071c30d46bfb0052904fd8917cd = L.circleMarker(
+                [43.740433, -79.303522],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_083633113b4e490e8d96650ff0e41b28 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb68d1ce43384d4995efec68ddc15798 = $(`<div id="html_cb68d1ce43384d4995efec68ddc15798" style="width: 100.0%; height: 100.0%;">Pharmacy Ave. North of Sherwood Ave.  43.740433,-79.303522</div>`)[0];
+            popup_083633113b4e490e8d96650ff0e41b28.setContent(html_cb68d1ce43384d4995efec68ddc15798);
+        
+
+        circle_marker_2f4b9071c30d46bfb0052904fd8917cd.bindPopup(popup_083633113b4e490e8d96650ff0e41b28)
+        ;
+
+        
+    
+    
+            var circle_marker_b68a1fbedd8e40479c4c879a82c12432 = L.circleMarker(
+                [43.771386, -79.284654],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_ade942abdcc641018fb5a1c3a0861bc3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c4922d649c64a30be2a23a95524c117 = $(`<div id="html_8c4922d649c64a30be2a23a95524c117" style="width: 100.0%; height: 100.0%;">Antrim Cres. Near 11 Antrim Cres.  43.771386,-79.284654</div>`)[0];
+            popup_ade942abdcc641018fb5a1c3a0861bc3.setContent(html_8c4922d649c64a30be2a23a95524c117);
+        
+
+        circle_marker_b68a1fbedd8e40479c4c879a82c12432.bindPopup(popup_ade942abdcc641018fb5a1c3a0861bc3)
+        ;
+
+        
+    
+    
+            var circle_marker_8f39acdcdbb64480974f48feecc79508 = L.circleMarker(
+                [43.787727, -79.322803],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_6a9b212c8577443792bc19737048f12c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c86511c414341cc823251a9f64f8bff = $(`<div id="html_1c86511c414341cc823251a9f64f8bff" style="width: 100.0%; height: 100.0%;">Pharmacy Ave. Near 2300 Pharmacy Ave.  43.787727,-79.322803</div>`)[0];
+            popup_6a9b212c8577443792bc19737048f12c.setContent(html_1c86511c414341cc823251a9f64f8bff);
+        
+
+        circle_marker_8f39acdcdbb64480974f48feecc79508.bindPopup(popup_6a9b212c8577443792bc19737048f12c)
+        ;
+
+        
+    
+    
+            var circle_marker_6fe2de23d9424a71bc39d4a0445ce1e8 = L.circleMarker(
+                [43.786773, -79.303947],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_57d9dbb5b8854b149b74e48317b6331f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c71cc070325455faae4f14c79bced49 = $(`<div id="html_5c71cc070325455faae4f14c79bced49" style="width: 100.0%; height: 100.0%;">Dunmurray Blvd. Near Groomsport Cres.  43.786773,-79.303947</div>`)[0];
+            popup_57d9dbb5b8854b149b74e48317b6331f.setContent(html_5c71cc070325455faae4f14c79bced49);
+        
+
+        circle_marker_6fe2de23d9424a71bc39d4a0445ce1e8.bindPopup(popup_57d9dbb5b8854b149b74e48317b6331f)
+        ;
+
+        
+    
+    
+            var circle_marker_5a695f9779d24cfda85d879224ffffed = L.circleMarker(
+                [43.808227, -79.270768],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_a40046f154fa4f49a29c7892e65f83db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_395b5aff2aac40feb3f69afce8891baf = $(`<div id="html_395b5aff2aac40feb3f69afce8891baf" style="width: 100.0%; height: 100.0%;">Sandhurst Circle North of Finch Ave. E.  43.808227,-79.270768</div>`)[0];
+            popup_a40046f154fa4f49a29c7892e65f83db.setContent(html_395b5aff2aac40feb3f69afce8891baf);
+        
+
+        circle_marker_5a695f9779d24cfda85d879224ffffed.bindPopup(popup_a40046f154fa4f49a29c7892e65f83db)
+        ;
+
+        
+    
+    
+            var circle_marker_ea7464614d3e408ea4d1c687dd808c78 = L.circleMarker(
+                [43.829693, -79.231921],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_fce29a05526a4dbc86fd5e6876d3f295 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eefaaa9ecb7946e69c43b7a012d0ff84 = $(`<div id="html_eefaaa9ecb7946e69c43b7a012d0ff84" style="width: 100.0%; height: 100.0%;">Seasons Dr. East of Oasis Blvd.  43.829693,-79.231921</div>`)[0];
+            popup_fce29a05526a4dbc86fd5e6876d3f295.setContent(html_eefaaa9ecb7946e69c43b7a012d0ff84);
+        
+
+        circle_marker_ea7464614d3e408ea4d1c687dd808c78.bindPopup(popup_fce29a05526a4dbc86fd5e6876d3f295)
+        ;
+
+        
+    
+    
+            var circle_marker_ba2183e850c8496abe0abc443b57e201 = L.circleMarker(
+                [43.774337, -79.18848],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_af8cc14a6e23442ab90dcc407874e745 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_faa4eb024c8c45f4b34c5e402a261dfc = $(`<div id="html_faa4eb024c8c45f4b34c5e402a261dfc" style="width: 100.0%; height: 100.0%;">Morningside Ave. Near Warnsworth St.  43.774337,-79.18848</div>`)[0];
+            popup_af8cc14a6e23442ab90dcc407874e745.setContent(html_faa4eb024c8c45f4b34c5e402a261dfc);
+        
+
+        circle_marker_ba2183e850c8496abe0abc443b57e201.bindPopup(popup_af8cc14a6e23442ab90dcc407874e745)
+        ;
+
+        
+    
+    
+            var circle_marker_69e24cfafbb34671bf0cb050ec751f91 = L.circleMarker(
+                [43.760182, -79.193916],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_055b9cca3e334a36aecad4ec6e5567db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69e4480b93684d1c86e02bc22644e91c = $(`<div id="html_69e4480b93684d1c86e02bc22644e91c" style="width: 100.0%; height: 100.0%;">Galloway Rd. Near Coronation Dr.  43.760182,-79.193916</div>`)[0];
+            popup_055b9cca3e334a36aecad4ec6e5567db.setContent(html_69e4480b93684d1c86e02bc22644e91c);
+        
+
+        circle_marker_69e24cfafbb34671bf0cb050ec751f91.bindPopup(popup_055b9cca3e334a36aecad4ec6e5567db)
+        ;
+
+        
+    
+    
+            var circle_marker_19f6a3be30754d15904ab9a2addf4f39 = L.circleMarker(
+                [43.806237, -79.2134],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_1205ed3fde8c49d78489b104bd9d56e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7a39c15eee640db981347ee09d33f2d = $(`<div id="html_b7a39c15eee640db981347ee09d33f2d" style="width: 100.0%; height: 100.0%;">Brenyon Way Near 200 Brenyon Way  43.806237,-79.2134</div>`)[0];
+            popup_1205ed3fde8c49d78489b104bd9d56e0.setContent(html_b7a39c15eee640db981347ee09d33f2d);
+        
+
+        circle_marker_19f6a3be30754d15904ab9a2addf4f39.bindPopup(popup_1205ed3fde8c49d78489b104bd9d56e0)
+        ;
+
+        
+    
+    
+            var circle_marker_3bfc03da4eaa49c0a5c4bf5b676935ea = L.circleMarker(
+                [43.820617, -79.208256],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5046c351978c4092b3b63dd9fb03c5ba);
+        
+    
+        var popup_61c65ebc4d2d4a498d356414f86927ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3bc194e4e94b4f4ca1e2657a15f8bffa = $(`<div id="html_3bc194e4e94b4f4ca1e2657a15f8bffa" style="width: 100.0%; height: 100.0%;">Old Finch Ave. West of Littles Rd.  43.820617,-79.208256</div>`)[0];
+            popup_61c65ebc4d2d4a498d356414f86927ea.setContent(html_3bc194e4e94b4f4ca1e2657a15f8bffa);
+        
+
+        circle_marker_3bfc03da4eaa49c0a5c4bf5b676935ea.bindPopup(popup_61c65ebc4d2d4a498d356414f86927ea)
+        ;
+
+        
+    
+</script>
