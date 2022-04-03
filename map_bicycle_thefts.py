@@ -22,9 +22,9 @@ coordinates = zip(latitudes, longtitudes)
 
 venues_map = folium.Map(location=[43.728136,-79.384666], zoom_start=11)
 
-for lat, lng, label1, label2 in zip(latitudes, longtitudes, df["Bike_Make"], df["Bike_Model"]):
+for lat, lng, make in zip(latitudes, longtitudes, df["Cost_of_Bike"]):
 
-    label = f"{label1}: {label2} \n{lat},{lng}"
+    label = f"{make} \n{lat},{lng}"
 
     folium.features.CircleMarker(
         [lat, lng],
