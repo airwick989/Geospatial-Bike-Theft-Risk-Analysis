@@ -2,7 +2,7 @@ from textwrap import indent
 import requests
 import json
 
-url = "https://api.foursquare.com/v3/places/search?ll=43.72%2C-79.57&radius=100000&categories=17119&limit=50"
+url = "https://api.foursquare.com/v3/places/search?ll=43.72%2C-79.57&radius=36000&categories=17119&limit=50"
 
 headers = {
     "Accept": "application/json",
