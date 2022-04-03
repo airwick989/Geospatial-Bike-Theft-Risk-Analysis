@@ -41,46 +41,6 @@
             "timezone": "America/Toronto"
         },
         {
-            "fsq_id": "4c1eb2bb8b3aa593cc869c5f",
-            "categories": [
-                {
-                    "id": 17119,
-                    "name": "Bicycle Store",
-                    "icon": {
-                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/bikeshop_",
-                        "suffix": ".png"
-                    }
-                }
-            ],
-            "chains": [],
-            "distance": 3525,
-            "geocodes": {
-                "main": {
-                    "latitude": 43.664978,
-                    "longitude": -79.35214
-                },
-                "roof": {
-                    "latitude": 43.664978,
-                    "longitude": -79.35214
-                }
-            },
-            "location": {
-                "address": "341 Broadview Ave",
-                "country": "CA",
-                "cross_street": "Broadview and Gerrard",
-                "formatted_address": "341 Broadview Ave (Broadview and Gerrard), Toronto ON M4M 2H1",
-                "locality": "Toronto",
-                "neighborhood": [
-                    "Corktown"
-                ],
-                "postcode": "M4M 2H1",
-                "region": "ON"
-            },
-            "name": "bikeSauce",
-            "related_places": {},
-            "timezone": "America/Toronto"
-        },
-        {
             "fsq_id": "4ae62455f964a52006a521e3",
             "categories": [
                 {
@@ -281,46 +241,6 @@
             "timezone": "America/Toronto"
         },
         {
-            "fsq_id": "4b69c952f964a52024b42be3",
-            "categories": [
-                {
-                    "id": 17119,
-                    "name": "Bicycle Store",
-                    "icon": {
-                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/bikeshop_",
-                        "suffix": ".png"
-                    }
-                }
-            ],
-            "chains": [],
-            "distance": 5730,
-            "geocodes": {
-                "main": {
-                    "latitude": 43.668722,
-                    "longitude": -79.39501
-                },
-                "roof": {
-                    "latitude": 43.668722,
-                    "longitude": -79.39501
-                }
-            },
-            "location": {
-                "address": "180 Bloor St W",
-                "country": "CA",
-                "cross_street": "at Avenue Road",
-                "formatted_address": "180 Bloor St W (at Avenue Road), Toronto ON M5S 2V6",
-                "locality": "Toronto",
-                "neighborhood": [
-                    "Susex Ulster"
-                ],
-                "postcode": "M5S 2V6",
-                "region": "ON"
-            },
-            "name": "Runners Shop",
-            "related_places": {},
-            "timezone": "America/Toronto"
-        },
-        {
             "fsq_id": "4b16ee5bf964a520a3bf23e3",
             "categories": [
                 {
@@ -433,6 +353,87 @@
                 "region": "ON"
             },
             "name": "Sporting Life",
+            "related_places": {},
+            "timezone": "America/Toronto"
+        },
+        {
+            "fsq_id": "4b686306f964a52055752be3",
+            "categories": [
+                {
+                    "id": 17119,
+                    "name": "Bicycle Store",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/bikeshop_",
+                        "suffix": ".png"
+                    }
+                }
+            ],
+            "chains": [],
+            "distance": 11283,
+            "geocodes": {
+                "main": {
+                    "latitude": 43.772943,
+                    "longitude": -79.254122
+                },
+                "roof": {
+                    "latitude": 43.772943,
+                    "longitude": -79.254122
+                }
+            },
+            "location": {
+                "address": "300 Borough Dr",
+                "address_extended": "# 26",
+                "country": "CA",
+                "cross_street": "Scarborough Town Centre",
+                "formatted_address": "300 Borough Dr (Scarborough Town Centre), Toronto ON M1P 4P5",
+                "locality": "Toronto",
+                "neighborhood": [
+                    "Scarborough Junction"
+                ],
+                "postcode": "M1P 4P5",
+                "region": "ON"
+            },
+            "name": "Sport Chek",
+            "related_places": {},
+            "timezone": "America/Toronto"
+        },
+        {
+            "fsq_id": "4f9b1f80e4b0d296c693641e",
+            "categories": [
+                {
+                    "id": 17119,
+                    "name": "Bicycle Store",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/bikeshop_",
+                        "suffix": ".png"
+                    }
+                }
+            ],
+            "chains": [],
+            "distance": 1621,
+            "geocodes": {
+                "main": {
+                    "latitude": 43.67908,
+                    "longitude": -79.34343
+                },
+                "roof": {
+                    "latitude": 43.67908,
+                    "longitude": -79.34343
+                }
+            },
+            "location": {
+                "address": "701 Danforth Ave",
+                "country": "CA",
+                "cross_street": "",
+                "formatted_address": "701 Danforth Ave, Toronto ON M4J 1L2",
+                "locality": "Toronto",
+                "neighborhood": [
+                    "Riverdale"
+                ],
+                "postcode": "M4J 1L2",
+                "region": "ON"
+            },
+            "name": "Broom Wagon Cyclery",
             "related_places": {},
             "timezone": "America/Toronto"
         },
@@ -595,6 +596,76 @@
                 "region": "ON"
             },
             "name": "Sport Chek Leaside",
+            "related_places": {},
+            "timezone": "America/Toronto"
+        },
+        {
+            "fsq_id": "51682cf5498e52237db8060d",
+            "categories": [
+                {
+                    "id": 17119,
+                    "name": "Bicycle Store",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/bikeshop_",
+                        "suffix": ".png"
+                    }
+                }
+            ],
+            "chains": [],
+            "distance": 3929,
+            "geocodes": {
+                "main": {
+                    "latitude": 43.658251,
+                    "longitude": -79.352009
+                },
+                "roof": {
+                    "latitude": 43.658251,
+                    "longitude": -79.352009
+                }
+            },
+            "location": {
+                "address": "651 Queen St E",
+                "country": "CA",
+                "cross_street": "",
+                "formatted_address": "651 Queen St E, Toronto ON M4M 1G4",
+                "locality": "Toronto",
+                "postcode": "M4M 1G4",
+                "region": "ON"
+            },
+            "name": "Switchback Cyclery",
+            "related_places": {},
+            "timezone": "America/Toronto"
+        },
+        {
+            "fsq_id": "5e629dbe26357f00084c7c4e",
+            "categories": [
+                {
+                    "id": 17119,
+                    "name": "Bicycle Store",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/bikeshop_",
+                        "suffix": ".png"
+                    }
+                }
+            ],
+            "chains": [],
+            "distance": 4468,
+            "geocodes": {
+                "main": {
+                    "latitude": 43.653676,
+                    "longitude": -79.353948
+                }
+            },
+            "location": {
+                "address": "500 Front St E",
+                "country": "CA",
+                "cross_street": "",
+                "formatted_address": "500 Front St E, Toronto ON M5A 0J1",
+                "locality": "Toronto",
+                "postcode": "M5A 0J1",
+                "region": "ON"
+            },
+            "name": "Gears Bike Shop Toronto Canary District",
             "related_places": {},
             "timezone": "America/Toronto"
         },
@@ -794,46 +865,6 @@
             "timezone": "America/Toronto"
         },
         {
-            "fsq_id": "4bfc0faaa118a59332e66db6",
-            "categories": [
-                {
-                    "id": 17119,
-                    "name": "Bicycle Store",
-                    "icon": {
-                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/bikeshop_",
-                        "suffix": ".png"
-                    }
-                }
-            ],
-            "chains": [],
-            "distance": 6467,
-            "geocodes": {
-                "main": {
-                    "latitude": 43.744274,
-                    "longitude": -79.301441
-                },
-                "roof": {
-                    "latitude": 43.744274,
-                    "longitude": -79.301441
-                }
-            },
-            "location": {
-                "address": "1894 Lawrence Ave E",
-                "country": "CA",
-                "cross_street": "",
-                "formatted_address": "1894 Lawrence Ave E, Toronto ON M1R 2Y5",
-                "locality": "Toronto",
-                "neighborhood": [
-                    "Maryvale"
-                ],
-                "postcode": "M1R 2Y5",
-                "region": "ON"
-            },
-            "name": "D'Ornellas Bike Shop Ltd",
-            "related_places": {},
-            "timezone": "America/Toronto"
-        },
-        {
             "fsq_id": "533b17fe498e9d34b69a646c",
             "categories": [
                 {
@@ -867,6 +898,46 @@
                 "region": "ON"
             },
             "name": "Bikechain",
+            "related_places": {},
+            "timezone": "America/Toronto"
+        },
+        {
+            "fsq_id": "4bd867d75cf276b02b269d00",
+            "categories": [
+                {
+                    "id": 17119,
+                    "name": "Bicycle Store",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/bikeshop_",
+                        "suffix": ".png"
+                    }
+                }
+            ],
+            "chains": [],
+            "distance": 6642,
+            "geocodes": {
+                "main": {
+                    "latitude": 43.66293,
+                    "longitude": -79.403626
+                },
+                "roof": {
+                    "latitude": 43.66293,
+                    "longitude": -79.403626
+                }
+            },
+            "location": {
+                "address": "195A Harbord St",
+                "country": "CA",
+                "cross_street": "Major Street",
+                "formatted_address": "195A Harbord St (Major Street), Toronto ON M5S 1G6",
+                "locality": "Toronto",
+                "neighborhood": [
+                    "Chinatown"
+                ],
+                "postcode": "M5S 1G6",
+                "region": "ON"
+            },
+            "name": "La Carrera Cycles",
             "related_places": {},
             "timezone": "America/Toronto"
         },
@@ -1290,6 +1361,46 @@
                 "region": "ON"
             },
             "name": "CycleCouture",
+            "related_places": {},
+            "timezone": "America/Toronto"
+        },
+        {
+            "fsq_id": "4de13f64d22d2a7955832e56",
+            "categories": [
+                {
+                    "id": 17119,
+                    "name": "Bicycle Store",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/bikeshop_",
+                        "suffix": ".png"
+                    }
+                }
+            ],
+            "chains": [],
+            "distance": 8743,
+            "geocodes": {
+                "main": {
+                    "latitude": 43.653896,
+                    "longitude": -79.425934
+                },
+                "roof": {
+                    "latitude": 43.653896,
+                    "longitude": -79.425934
+                }
+            },
+            "location": {
+                "address": "926 College St",
+                "country": "CA",
+                "cross_street": "",
+                "formatted_address": "926 College St, Toronto ON M6H 1A4",
+                "locality": "Toronto",
+                "neighborhood": [
+                    "Dufferin Grove"
+                ],
+                "postcode": "M6H 1A4",
+                "region": "ON"
+            },
+            "name": "Cycle Couture",
             "related_places": {},
             "timezone": "America/Toronto"
         },
@@ -1828,120 +1939,6 @@
                 "region": "ON"
             },
             "name": "Pop a Wheelie",
-            "related_places": {},
-            "timezone": "America/Toronto"
-        },
-        {
-            "fsq_id": "511183b7e4b08d876c1301f3",
-            "categories": [
-                {
-                    "id": 17119,
-                    "name": "Bicycle Store",
-                    "icon": {
-                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/bikeshop_",
-                        "suffix": ".png"
-                    }
-                }
-            ],
-            "chains": [],
-            "distance": 12423,
-            "geocodes": {
-                "main": {
-                    "latitude": 43.776148,
-                    "longitude": -79.234375
-                },
-                "roof": {
-                    "latitude": 43.776148,
-                    "longitude": -79.234375
-                }
-            },
-            "location": {
-                "address": "2050D Ellesmere Rd",
-                "country": "CA",
-                "cross_street": "",
-                "formatted_address": "2050D Ellesmere Rd, Toronto ON M1H 2V6",
-                "locality": "Toronto",
-                "postcode": "M1H 2V6",
-                "region": "ON"
-            },
-            "name": "Sorkkam Cricket",
-            "related_places": {},
-            "timezone": "America/Toronto"
-        },
-        {
-            "fsq_id": "4c092580009a0f472934e7bf",
-            "categories": [
-                {
-                    "id": 17119,
-                    "name": "Bicycle Store",
-                    "icon": {
-                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/bikeshop_",
-                        "suffix": ".png"
-                    }
-                }
-            ],
-            "chains": [],
-            "distance": 14128,
-            "geocodes": {
-                "main": {
-                    "latitude": 43.799316,
-                    "longitude": -79.420149
-                },
-                "roof": {
-                    "latitude": 43.799316,
-                    "longitude": -79.420149
-                }
-            },
-            "location": {
-                "address": "7037 Yonge St",
-                "country": "CA",
-                "cross_street": "At Steeles",
-                "formatted_address": "7037 Yonge St (At Steeles), Thornhill ON L3T 2A6",
-                "locality": "Thornhill",
-                "neighborhood": [
-                    "Newtonbrook"
-                ],
-                "postcode": "L3T 2A6",
-                "region": "ON"
-            },
-            "name": "Bike Depot Inc",
-            "related_places": {},
-            "timezone": "America/Toronto"
-        },
-        {
-            "fsq_id": "4bfff23bf61ea593ba05eb13",
-            "categories": [
-                {
-                    "id": 17119,
-                    "name": "Bicycle Store",
-                    "icon": {
-                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/bikeshop_",
-                        "suffix": ".png"
-                    }
-                }
-            ],
-            "chains": [],
-            "distance": 14207,
-            "geocodes": {
-                "main": {
-                    "latitude": 43.808984,
-                    "longitude": -79.271259
-                },
-                "roof": {
-                    "latitude": 43.808984,
-                    "longitude": -79.271259
-                }
-            },
-            "location": {
-                "address": "1571 Sandhurst Cir",
-                "country": "CA",
-                "cross_street": "",
-                "formatted_address": "1571 Sandhurst Cir, Scarborough ON M1V 1V2",
-                "locality": "Scarborough",
-                "postcode": "M1V 1V2",
-                "region": "ON"
-            },
-            "name": "Svp Sports Outlet",
             "related_places": {},
             "timezone": "America/Toronto"
         }
