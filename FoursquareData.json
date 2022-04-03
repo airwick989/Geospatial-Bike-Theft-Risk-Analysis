@@ -41,6 +41,46 @@
             "timezone": "America/Toronto"
         },
         {
+            "fsq_id": "4ae62455f964a52006a521e3",
+            "categories": [
+                {
+                    "id": 17119,
+                    "name": "Bicycle Store",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/bikeshop_",
+                        "suffix": ".png"
+                    }
+                }
+            ],
+            "chains": [],
+            "distance": 12543,
+            "geocodes": {
+                "main": {
+                    "latitude": 43.659445,
+                    "longitude": -79.438373
+                },
+                "roof": {
+                    "latitude": 43.659445,
+                    "longitude": -79.438373
+                }
+            },
+            "location": {
+                "address": "1204 Bloor St W",
+                "country": "CA",
+                "cross_street": "at Brock Ave",
+                "formatted_address": "1204 Bloor St W (at Brock Ave), Toronto ON M6H 1N2",
+                "locality": "Toronto",
+                "neighborhood": [
+                    "Wallace Emerson"
+                ],
+                "postcode": "M6H 1N2",
+                "region": "ON"
+            },
+            "name": "Sweet Pete's Bike Shop",
+            "related_places": {},
+            "timezone": "America/Toronto"
+        },
+        {
             "fsq_id": "5007124be4b02732c1163c1f",
             "categories": [
                 {
@@ -83,7 +123,7 @@
             "timezone": "America/Toronto"
         },
         {
-            "fsq_id": "4ae62455f964a52006a521e3",
+            "fsq_id": "4bd0b2e89854d13a1841f84d",
             "categories": [
                 {
                     "id": 17119,
@@ -95,30 +135,28 @@
                 }
             ],
             "chains": [],
-            "distance": 12543,
+            "distance": 5642,
             "geocodes": {
                 "main": {
-                    "latitude": 43.659445,
-                    "longitude": -79.438373
+                    "latitude": 43.752698,
+                    "longitude": -79.623315
                 },
                 "roof": {
-                    "latitude": 43.659445,
-                    "longitude": -79.438373
+                    "latitude": 43.752698,
+                    "longitude": -79.623315
                 }
             },
             "location": {
-                "address": "1204 Bloor St W",
+                "address": "6931 Steeles Ave W",
+                "address_extended": "Suite 2",
                 "country": "CA",
-                "cross_street": "at Brock Ave",
-                "formatted_address": "1204 Bloor St W (at Brock Ave), Toronto ON M6H 1N2",
-                "locality": "Toronto",
-                "neighborhood": [
-                    "Wallace Emerson"
-                ],
-                "postcode": "M6H 1N2",
+                "cross_street": "",
+                "formatted_address": "6931 Steeles Ave W, Rexdale ON M9W 6K7",
+                "locality": "Rexdale",
+                "postcode": "M9W 6K7",
                 "region": "ON"
             },
-            "name": "Sweet Pete's Bike Shop",
+            "name": "Si Vous Play Sports",
             "related_places": {},
             "timezone": "America/Toronto"
         },
@@ -159,44 +197,6 @@
                 "region": "ON"
             },
             "name": "Cycle Solutions",
-            "related_places": {},
-            "timezone": "America/Toronto"
-        },
-        {
-            "fsq_id": "4bd0b2e89854d13a1841f84d",
-            "categories": [
-                {
-                    "id": 17119,
-                    "name": "Bicycle Store",
-                    "icon": {
-                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/bikeshop_",
-                        "suffix": ".png"
-                    }
-                }
-            ],
-            "chains": [],
-            "distance": 5642,
-            "geocodes": {
-                "main": {
-                    "latitude": 43.752698,
-                    "longitude": -79.623315
-                },
-                "roof": {
-                    "latitude": 43.752698,
-                    "longitude": -79.623315
-                }
-            },
-            "location": {
-                "address": "6931 Steeles Ave W",
-                "address_extended": "Suite 2",
-                "country": "CA",
-                "cross_street": "",
-                "formatted_address": "6931 Steeles Ave W, Rexdale ON M9W 6K7",
-                "locality": "Rexdale",
-                "postcode": "M9W 6K7",
-                "region": "ON"
-            },
-            "name": "Si Vous Play Sports",
             "related_places": {},
             "timezone": "America/Toronto"
         },
@@ -279,7 +279,7 @@
             "timezone": "America/Toronto"
         },
         {
-            "fsq_id": "4bd75e1988559521455f87a7",
+            "fsq_id": "4af45271f964a5204ff121e3",
             "categories": [
                 {
                     "id": 17119,
@@ -291,29 +291,30 @@
                 }
             ],
             "chains": [],
-            "distance": 57681,
+            "distance": 19193,
             "geocodes": {
                 "main": {
-                    "latitude": 43.257278,
-                    "longitude": -79.893774
+                    "latitude": 43.548058,
+                    "longitude": -79.589872
                 },
                 "roof": {
-                    "latitude": 43.257278,
-                    "longitude": -79.893774
+                    "latitude": 43.548058,
+                    "longitude": -79.589872
                 }
             },
             "location": {
-                "address": "104 Frid St",
+                "address": "176 Lakeshore Rd W",
                 "country": "CA",
-                "formatted_address": "104 Frid St, Hamilton ON L8P 4M4",
-                "locality": "Hamilton",
+                "cross_street": "at Mississauga Rd.",
+                "formatted_address": "176 Lakeshore Rd W (at Mississauga Rd.), Mississauga ON L5H 1G4",
+                "locality": "Mississauga",
                 "neighborhood": [
-                    "Kirkendall North"
+                    "Port Credit"
                 ],
-                "postcode": "L8P 4M4",
+                "postcode": "L5H 1G4",
                 "region": "ON"
             },
-            "name": "Soccer World",
+            "name": "Gears Bike Shop",
             "related_places": {},
             "timezone": "America/Toronto"
         },
@@ -427,6 +428,47 @@
                 "formatted_address": "7850B Weston Rd, Vaughan ON L4L 9N8",
                 "locality": "Vaughan",
                 "postcode": "L4L 9N8",
+                "region": "ON"
+            },
+            "name": "Sport Chek",
+            "related_places": {},
+            "timezone": "America/Toronto"
+        },
+        {
+            "fsq_id": "4b686306f964a52055752be3",
+            "categories": [
+                {
+                    "id": 17119,
+                    "name": "Bicycle Store",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/bikeshop_",
+                        "suffix": ".png"
+                    }
+                }
+            ],
+            "chains": [],
+            "distance": 26001,
+            "geocodes": {
+                "main": {
+                    "latitude": 43.772943,
+                    "longitude": -79.254122
+                },
+                "roof": {
+                    "latitude": 43.772943,
+                    "longitude": -79.254122
+                }
+            },
+            "location": {
+                "address": "300 Borough Dr",
+                "address_extended": "# 26",
+                "country": "CA",
+                "cross_street": "Scarborough Town Centre",
+                "formatted_address": "300 Borough Dr (Scarborough Town Centre), Toronto ON M1P 4P5",
+                "locality": "Toronto",
+                "neighborhood": [
+                    "Scarborough Junction"
+                ],
+                "postcode": "M1P 4P5",
                 "region": "ON"
             },
             "name": "Sport Chek",
@@ -550,6 +592,46 @@
             "timezone": "America/Toronto"
         },
         {
+            "fsq_id": "4c0bf9e0340720a142f18893",
+            "categories": [
+                {
+                    "id": 17119,
+                    "name": "Bicycle Store",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/bikeshop_",
+                        "suffix": ".png"
+                    }
+                }
+            ],
+            "chains": [],
+            "distance": 10061,
+            "geocodes": {
+                "main": {
+                    "latitude": 43.772694,
+                    "longitude": -79.468339
+                },
+                "roof": {
+                    "latitude": 43.772694,
+                    "longitude": -79.468339
+                }
+            },
+            "location": {
+                "address": "4610 Dufferin St",
+                "country": "CA",
+                "cross_street": "North of Finch Ave W",
+                "formatted_address": "4610 Dufferin St (North of Finch Ave W), Toronto ON M3H 5S4",
+                "locality": "Toronto",
+                "neighborhood": [
+                    "Bathurst Manor"
+                ],
+                "postcode": "M3H 5S4",
+                "region": "ON"
+            },
+            "name": "Majer Hockey",
+            "related_places": {},
+            "timezone": "America/Toronto"
+        },
+        {
             "fsq_id": "5ea9ec57a1d29a0008c9a886",
             "categories": [
                 {
@@ -580,6 +662,43 @@
                 "region": "ON"
             },
             "name": "Giant Vaughan",
+            "related_places": {},
+            "timezone": "America/Toronto"
+        },
+        {
+            "fsq_id": "4adcc299f964a520822f21e3",
+            "categories": [
+                {
+                    "id": 17119,
+                    "name": "Bicycle Store",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/bikeshop_",
+                        "suffix": ".png"
+                    }
+                }
+            ],
+            "chains": [],
+            "distance": 12344,
+            "geocodes": {
+                "main": {
+                    "latitude": 43.658679,
+                    "longitude": -79.441944
+                },
+                "roof": {
+                    "latitude": 43.658679,
+                    "longitude": -79.441944
+                }
+            },
+            "location": {
+                "address": "1416 Queen St W",
+                "country": "CA",
+                "cross_street": "at Lansdowne Ave",
+                "formatted_address": "1416 Queen St W (at Lansdowne Ave), Toronto ON M6K 1L9",
+                "locality": "Toronto",
+                "postcode": "M6K 1L9",
+                "region": "ON"
+            },
+            "name": "Bike Pirates",
             "related_places": {},
             "timezone": "America/Toronto"
         },
@@ -657,6 +776,39 @@
                 "region": "ON"
             },
             "name": "Brockton Cyclery",
+            "related_places": {},
+            "timezone": "America/Toronto"
+        },
+        {
+            "fsq_id": "4e061a822271dfa46ba69fcd",
+            "categories": [
+                {
+                    "id": 17119,
+                    "name": "Bicycle Store",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/bikeshop_",
+                        "suffix": ".png"
+                    }
+                }
+            ],
+            "chains": [],
+            "distance": 13578,
+            "geocodes": {
+                "main": {
+                    "latitude": 43.639218,
+                    "longitude": -79.443304
+                }
+            },
+            "location": {
+                "address": "1652 Queen St W",
+                "country": "CA",
+                "cross_street": "",
+                "formatted_address": "1652 Queen St W, Toronto ON M6R 1B2",
+                "locality": "Toronto",
+                "postcode": "M6R 1B2",
+                "region": "ON"
+            },
+            "name": "Mojo Cycles",
             "related_places": {},
             "timezone": "America/Toronto"
         },
@@ -741,6 +893,84 @@
             "timezone": "America/Toronto"
         },
         {
+            "fsq_id": "4de13f64d22d2a7955832e56",
+            "categories": [
+                {
+                    "id": 17119,
+                    "name": "Bicycle Store",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/bikeshop_",
+                        "suffix": ".png"
+                    }
+                }
+            ],
+            "chains": [],
+            "distance": 13712,
+            "geocodes": {
+                "main": {
+                    "latitude": 43.653896,
+                    "longitude": -79.425934
+                },
+                "roof": {
+                    "latitude": 43.653896,
+                    "longitude": -79.425934
+                }
+            },
+            "location": {
+                "address": "926 College St",
+                "country": "CA",
+                "cross_street": "",
+                "formatted_address": "926 College St, Toronto ON M6H 1A4",
+                "locality": "Toronto",
+                "neighborhood": [
+                    "Dufferin Grove"
+                ],
+                "postcode": "M6H 1A4",
+                "region": "ON"
+            },
+            "name": "Cycle Couture",
+            "related_places": {},
+            "timezone": "America/Toronto"
+        },
+        {
+            "fsq_id": "4c8eaf55ad70a14338ab8b0f",
+            "categories": [
+                {
+                    "id": 17119,
+                    "name": "Bicycle Store",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/bikeshop_",
+                        "suffix": ".png"
+                    }
+                }
+            ],
+            "chains": [],
+            "distance": 13834,
+            "geocodes": {
+                "main": {
+                    "latitude": 43.700785,
+                    "longitude": -79.740558
+                },
+                "roof": {
+                    "latitude": 43.700785,
+                    "longitude": -79.740558
+                }
+            },
+            "location": {
+                "address": "12 Rutherford Rd S",
+                "address_extended": "# 5",
+                "country": "CA",
+                "cross_street": "",
+                "formatted_address": "12 Rutherford Rd S, Brampton ON L6W 3J1",
+                "locality": "Brampton",
+                "postcode": "L6W 3J1",
+                "region": "ON"
+            },
+            "name": "Sports Unlimited",
+            "related_places": {},
+            "timezone": "America/Toronto"
+        },
+        {
             "fsq_id": "4dbc63b0cda109aa6c9a69c5",
             "categories": [
                 {
@@ -818,6 +1048,51 @@
             },
             "name": "Bike Depot Inc",
             "related_places": {},
+            "timezone": "America/Toronto"
+        },
+        {
+            "fsq_id": "4b68c3b5f964a520a68b2be3",
+            "categories": [
+                {
+                    "id": 17119,
+                    "name": "Bicycle Store",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/bikeshop_",
+                        "suffix": ".png"
+                    }
+                }
+            ],
+            "chains": [],
+            "distance": 15391,
+            "geocodes": {
+                "main": {
+                    "latitude": 43.59291,
+                    "longitude": -79.642884
+                },
+                "roof": {
+                    "latitude": 43.59291,
+                    "longitude": -79.642884
+                }
+            },
+            "location": {
+                "address": "100 City Centre Dr",
+                "country": "CA",
+                "cross_street": "in Square One",
+                "formatted_address": "100 City Centre Dr (in Square One), Mississauga ON L5B 2C9",
+                "locality": "Mississauga",
+                "neighborhood": [
+                    "City Center"
+                ],
+                "postcode": "L5B 2C9",
+                "region": "ON"
+            },
+            "name": "Boathouse",
+            "related_places": {
+                "parent": {
+                    "fsq_id": "4adc8d0df964a520222d21e3",
+                    "name": "Square One"
+                }
+            },
             "timezone": "America/Toronto"
         },
         {
@@ -938,6 +1213,39 @@
             "timezone": "America/Toronto"
         },
         {
+            "fsq_id": "5505ba4f498e1f2b3874f6e6",
+            "categories": [
+                {
+                    "id": 17119,
+                    "name": "Bicycle Store",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/bikeshop_",
+                        "suffix": ".png"
+                    }
+                }
+            ],
+            "chains": [],
+            "distance": 17327,
+            "geocodes": {
+                "main": {
+                    "latitude": 43.660651,
+                    "longitude": -79.370593
+                }
+            },
+            "location": {
+                "address": "23 Karl Fraser Rd",
+                "country": "CA",
+                "cross_street": "Don Mills And Lawrence",
+                "formatted_address": "23 Karl Fraser Rd (Don Mills And Lawrence), Toronto ON M3C 0E6",
+                "locality": "Toronto",
+                "postcode": "M3C 0E6",
+                "region": "ON"
+            },
+            "name": "The 11inc",
+            "related_places": {},
+            "timezone": "America/Toronto"
+        },
+        {
             "fsq_id": "57251f32498e6bd6782d69ea",
             "categories": [
                 {
@@ -980,6 +1288,156 @@
                     "name": "Shops at Don Mills"
                 }
             },
+            "timezone": "America/Toronto"
+        },
+        {
+            "fsq_id": "4f9b1f80e4b0d296c693641e",
+            "categories": [
+                {
+                    "id": 17119,
+                    "name": "Bicycle Store",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/bikeshop_",
+                        "suffix": ".png"
+                    }
+                }
+            ],
+            "chains": [],
+            "distance": 18738,
+            "geocodes": {
+                "main": {
+                    "latitude": 43.67908,
+                    "longitude": -79.34343
+                },
+                "roof": {
+                    "latitude": 43.67908,
+                    "longitude": -79.34343
+                }
+            },
+            "location": {
+                "address": "701 Danforth Ave",
+                "country": "CA",
+                "cross_street": "",
+                "formatted_address": "701 Danforth Ave, Toronto ON M4J 1L2",
+                "locality": "Toronto",
+                "neighborhood": [
+                    "Riverdale"
+                ],
+                "postcode": "M4J 1L2",
+                "region": "ON"
+            },
+            "name": "Broom Wagon Cyclery",
+            "related_places": {},
+            "timezone": "America/Toronto"
+        },
+        {
+            "fsq_id": "5e629dbe26357f00084c7c4e",
+            "categories": [
+                {
+                    "id": 17119,
+                    "name": "Bicycle Store",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/bikeshop_",
+                        "suffix": ".png"
+                    }
+                }
+            ],
+            "chains": [],
+            "distance": 18881,
+            "geocodes": {
+                "main": {
+                    "latitude": 43.653676,
+                    "longitude": -79.353948
+                }
+            },
+            "location": {
+                "address": "500 Front St E",
+                "country": "CA",
+                "cross_street": "",
+                "formatted_address": "500 Front St E, Toronto ON M5A 0J1",
+                "locality": "Toronto",
+                "postcode": "M5A 0J1",
+                "region": "ON"
+            },
+            "name": "Gears Bike Shop Toronto Canary District",
+            "related_places": {},
+            "timezone": "America/Toronto"
+        },
+        {
+            "fsq_id": "4bcb067cfb84c9b6d5041e3e",
+            "categories": [
+                {
+                    "id": 17119,
+                    "name": "Bicycle Store",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/bikeshop_",
+                        "suffix": ".png"
+                    }
+                }
+            ],
+            "chains": [],
+            "distance": 19283,
+            "geocodes": {
+                "main": {
+                    "latitude": 43.580757,
+                    "longitude": -79.712736
+                },
+                "roof": {
+                    "latitude": 43.580757,
+                    "longitude": -79.712736
+                }
+            },
+            "location": {
+                "address": "222 Queen St S",
+                "country": "CA",
+                "cross_street": "",
+                "formatted_address": "222 Queen St S, Mississauga ON L5M 1L5",
+                "locality": "Mississauga",
+                "neighborhood": [
+                    "East Credit"
+                ],
+                "postcode": "L5M 1L5",
+                "region": "ON"
+            },
+            "name": "Via Ciclante",
+            "related_places": {},
+            "timezone": "America/Toronto"
+        },
+        {
+            "fsq_id": "4d8f7572d4ec8cfa31118c89",
+            "categories": [
+                {
+                    "id": 17119,
+                    "name": "Bicycle Store",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/bikeshop_",
+                        "suffix": ".png"
+                    }
+                }
+            ],
+            "chains": [],
+            "distance": 19363,
+            "geocodes": {
+                "main": {
+                    "latitude": 43.864538,
+                    "longitude": -79.435075
+                },
+                "roof": {
+                    "latitude": 43.864538,
+                    "longitude": -79.435075
+                }
+            },
+            "location": {
+                "address": "9737 Yonge St",
+                "country": "CA",
+                "cross_street": "at May Ave",
+                "formatted_address": "9737 Yonge St (at May Ave), Richmond Hill ON L4C 8S7",
+                "locality": "Richmond Hill",
+                "postcode": "L4C 8S7",
+                "region": "ON"
+            },
+            "name": "Impala Bicycles Ltd",
+            "related_places": {},
             "timezone": "America/Toronto"
         },
         {
@@ -1250,6 +1708,43 @@
             "timezone": "America/Toronto"
         },
         {
+            "fsq_id": "511183b7e4b08d876c1301f3",
+            "categories": [
+                {
+                    "id": 17119,
+                    "name": "Bicycle Store",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/bikeshop_",
+                        "suffix": ".png"
+                    }
+                }
+            ],
+            "chains": [],
+            "distance": 27680,
+            "geocodes": {
+                "main": {
+                    "latitude": 43.776148,
+                    "longitude": -79.234375
+                },
+                "roof": {
+                    "latitude": 43.776148,
+                    "longitude": -79.234375
+                }
+            },
+            "location": {
+                "address": "2050D Ellesmere Rd",
+                "country": "CA",
+                "cross_street": "",
+                "formatted_address": "2050D Ellesmere Rd, Toronto ON M1H 2V6",
+                "locality": "Toronto",
+                "postcode": "M1H 2V6",
+                "region": "ON"
+            },
+            "name": "Sorkkam Cricket",
+            "related_places": {},
+            "timezone": "America/Toronto"
+        },
+        {
             "fsq_id": "54b67f95498e14bda2d3fc1c",
             "categories": [
                 {
@@ -1290,43 +1785,6 @@
                     "name": "Oakville Place Dental Office"
                 }
             },
-            "timezone": "America/Toronto"
-        },
-        {
-            "fsq_id": "4f31a59fe4b010a3c0680c13",
-            "categories": [
-                {
-                    "id": 17119,
-                    "name": "Bicycle Store",
-                    "icon": {
-                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/bikeshop_",
-                        "suffix": ".png"
-                    }
-                }
-            ],
-            "chains": [],
-            "distance": 30492,
-            "geocodes": {
-                "main": {
-                    "latitude": 43.390954,
-                    "longitude": -79.7525
-                },
-                "roof": {
-                    "latitude": 43.390954,
-                    "longitude": -79.7525
-                }
-            },
-            "location": {
-                "address": "5510 Harvester Rd",
-                "country": "CA",
-                "cross_street": "btwn QEW & Cornwall Rd.",
-                "formatted_address": "5510 Harvester Rd (btwn QEW & Cornwall Rd.), Oakville ON L7L 5V4",
-                "locality": "Oakville",
-                "postcode": "L7L 5V4",
-                "region": "ON"
-            },
-            "name": "Gears Bike Shop",
-            "related_places": {},
             "timezone": "America/Toronto"
         },
         {
@@ -1437,7 +1895,7 @@
             "timezone": "America/Toronto"
         },
         {
-            "fsq_id": "4bcf788d046076b0ec606e71",
+            "fsq_id": "576ddcda0bdf4c4312fc3da4",
             "categories": [
                 {
                     "id": 17119,
@@ -1449,489 +1907,27 @@
                 }
             ],
             "chains": [],
-            "distance": 41069,
+            "distance": 5781,
             "geocodes": {
                 "main": {
-                    "latitude": 44.076033,
-                    "longitude": -79.434265
-                }
-            },
-            "location": {
-                "address": "17915 Leslie St",
-                "address_extended": "# 13",
-                "country": "CA",
-                "cross_street": "Stellar Drive",
-                "formatted_address": "17915 Leslie St (Stellar Drive), Newmarket ON L3Y 3E3",
-                "locality": "Newmarket",
-                "postcode": "L3Y 3E3",
-                "region": "ON"
-            },
-            "name": "Spoke O' Motion",
-            "related_places": {},
-            "timezone": "America/Toronto"
-        },
-        {
-            "fsq_id": "56e1c77b498e3a6d04f8722f",
-            "categories": [
-                {
-                    "id": 17119,
-                    "name": "Bicycle Store",
-                    "icon": {
-                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/bikeshop_",
-                        "suffix": ".png"
-                    }
-                }
-            ],
-            "chains": [],
-            "distance": 42203,
-            "geocodes": {
-                "main": {
-                    "latitude": 43.835131,
-                    "longitude": -79.068736
-                }
-            },
-            "location": {
-                "address": "1050 Brock Rd",
-                "address_extended": "# 1A",
-                "country": "CA",
-                "cross_street": "Hwy 401 & Brock Rd",
-                "formatted_address": "1050 Brock Rd (Hwy 401 & Brock Rd), Pickering ON L1W 3X4",
-                "locality": "Pickering",
-                "postcode": "L1W 3X4",
-                "region": "ON"
-            },
-            "name": "Cycle Life",
-            "related_places": {},
-            "timezone": "America/Toronto"
-        },
-        {
-            "fsq_id": "4c2e4b857cc0c9b6b8c9e99a",
-            "categories": [
-                {
-                    "id": 17119,
-                    "name": "Bicycle Store",
-                    "icon": {
-                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/bikeshop_",
-                        "suffix": ".png"
-                    }
-                }
-            ],
-            "chains": [],
-            "distance": 48261,
-            "geocodes": {
-                "main": {
-                    "latitude": 43.32562,
-                    "longitude": -79.820732
+                    "latitude": 43.746846,
+                    "longitude": -79.631676
                 },
                 "roof": {
-                    "latitude": 43.32562,
-                    "longitude": -79.820732
+                    "latitude": 43.746846,
+                    "longitude": -79.631676
                 }
             },
             "location": {
-                "address": "900 Maple Ave",
+                "address": "25 Claireport Cres",
                 "country": "CA",
-                "cross_street": "in Mapleview Centre",
-                "formatted_address": "900 Maple Ave (in Mapleview Centre), Burlington ON L7S 2J8",
-                "locality": "Burlington",
-                "neighborhood": [
-                    "Maple"
-                ],
-                "postcode": "L7S 2J8",
+                "formatted_address": "25 Claireport Cres, Toronto ON M9W 6P7",
+                "locality": "Toronto",
+                "postcode": "M9W 6P7",
                 "region": "ON"
             },
-            "name": "West 49",
-            "related_places": {
-                "parent": {
-                    "fsq_id": "4af716adf964a520b60522e3",
-                    "name": "Mapleview Shopping Centre"
-                }
-            },
-            "timezone": "America/Toronto"
-        },
-        {
-            "fsq_id": "4fce695ee4b0d49882549ee2",
-            "categories": [
-                {
-                    "id": 17119,
-                    "name": "Bicycle Store",
-                    "icon": {
-                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/bikeshop_",
-                        "suffix": ".png"
-                    }
-                }
-            ],
-            "chains": [],
-            "distance": 56008,
-            "geocodes": {
-                "main": {
-                    "latitude": 43.88704,
-                    "longitude": -78.91112
-                }
-            },
-            "location": {
-                "address": "1618 Dundas St E",
-                "address_extended": "# 1",
-                "country": "CA",
-                "cross_street": "",
-                "formatted_address": "1618 Dundas St E, Whitby ON L1N 2K8",
-                "locality": "Whitby",
-                "postcode": "L1N 2K8",
-                "region": "ON"
-            },
-            "name": "Bicycles Plus",
-            "related_places": {},
-            "timezone": "America/Toronto"
-        },
-        {
-            "fsq_id": "5d7c1b5f7749990007b37b38",
-            "categories": [
-                {
-                    "id": 17119,
-                    "name": "Bicycle Store",
-                    "icon": {
-                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/bikeshop_",
-                        "suffix": ".png"
-                    }
-                }
-            ],
-            "chains": [],
-            "distance": 56722,
-            "geocodes": {
-                "main": {
-                    "latitude": 43.24198,
-                    "longitude": -79.816369
-                },
-                "roof": {
-                    "latitude": 43.24198,
-                    "longitude": -79.816369
-                }
-            },
-            "location": {
-                "address": "1249 Main St E",
-                "country": "CA",
-                "cross_street": "Province St",
-                "formatted_address": "1249 Main St E (Province St), Hamilton ON L8K 1A8",
-                "locality": "Hamilton",
-                "neighborhood": [
-                    "Crown Point East"
-                ],
-                "postcode": "L8K 1A8",
-                "region": "ON"
-            },
-            "name": "New Hope Community Bikes",
-            "related_places": {},
-            "timezone": "America/Toronto"
-        },
-        {
-            "fsq_id": "4d824d5c7252a1cd2945ab5d",
-            "categories": [
-                {
-                    "id": 17119,
-                    "name": "Bicycle Store",
-                    "icon": {
-                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/bikeshop_",
-                        "suffix": ".png"
-                    }
-                }
-            ],
-            "chains": [],
-            "distance": 58879,
-            "geocodes": {
-                "main": {
-                    "latitude": 43.22975,
-                    "longitude": -79.847492
-                },
-                "roof": {
-                    "latitude": 43.22975,
-                    "longitude": -79.847492
-                }
-            },
-            "location": {
-                "address": "828 Fennell Ave E",
-                "country": "CA",
-                "cross_street": "",
-                "formatted_address": "828 Fennell Ave E, Hamilton ON L8V 1V6",
-                "locality": "Hamilton",
-                "postcode": "L8V 1V6",
-                "region": "ON"
-            },
-            "name": "Sports Swappers",
-            "related_places": {},
-            "timezone": "America/Toronto"
-        },
-        {
-            "fsq_id": "4d1ce4bc8860a0937523bf34",
-            "categories": [
-                {
-                    "id": 17119,
-                    "name": "Bicycle Store",
-                    "icon": {
-                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/bikeshop_",
-                        "suffix": ".png"
-                    }
-                }
-            ],
-            "chains": [],
-            "distance": 67688,
-            "geocodes": {
-                "main": {
-                    "latitude": 43.159621,
-                    "longitude": -79.241586
-                },
-                "roof": {
-                    "latitude": 43.159621,
-                    "longitude": -79.241586
-                }
-            },
-            "location": {
-                "address": "2 Bond St",
-                "country": "CA",
-                "cross_street": "",
-                "formatted_address": "2 Bond St, St Catharines ON L2R 4Y9",
-                "locality": "St Catharines",
-                "neighborhood": [
-                    "Downtown"
-                ],
-                "postcode": "L2R 4Y9",
-                "region": "ON"
-            },
-            "name": "Liberty Bicycles",
-            "related_places": {},
-            "timezone": "America/Toronto"
-        },
-        {
-            "fsq_id": "4fe376fbe4b0675f95b75438",
-            "categories": [
-                {
-                    "id": 17119,
-                    "name": "Bicycle Store",
-                    "icon": {
-                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/bikeshop_",
-                        "suffix": ".png"
-                    }
-                }
-            ],
-            "chains": [],
-            "distance": 67752,
-            "geocodes": {
-                "main": {
-                    "latitude": 43.157534,
-                    "longitude": -79.245007
-                },
-                "roof": {
-                    "latitude": 43.157534,
-                    "longitude": -79.245007
-                }
-            },
-            "location": {
-                "address": "145 St Paul St",
-                "country": "CA",
-                "cross_street": "",
-                "formatted_address": "145 St Paul St, St Catharines ON L2R 3M5",
-                "locality": "St Catharines",
-                "neighborhood": [
-                    "Downtown"
-                ],
-                "postcode": "L2R 3M5",
-                "region": "ON"
-            },
-            "name": "Rapid City Cycle",
-            "related_places": {},
-            "timezone": "America/Toronto"
-        },
-        {
-            "fsq_id": "568b07de38fafac5f3e2491a",
-            "categories": [
-                {
-                    "id": 17119,
-                    "name": "Bicycle Store",
-                    "icon": {
-                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/bikeshop_",
-                        "suffix": ".png"
-                    }
-                }
-            ],
-            "chains": [],
-            "distance": 67795,
-            "geocodes": {
-                "main": {
-                    "latitude": 43.430724,
-                    "longitude": -80.311594
-                },
-                "roof": {
-                    "latitude": 43.430724,
-                    "longitude": -80.311594
-                }
-            },
-            "location": {
-                "address": "22 Queen St W",
-                "country": "CA",
-                "cross_street": "",
-                "formatted_address": "22 Queen St W, Cambridge ON N3C 1G1",
-                "locality": "Cambridge",
-                "neighborhood": [
-                    "Eaton Centre"
-                ],
-                "postcode": "N3C 1G1",
-                "region": "ON"
-            },
-            "name": "The Hub Bicycle Shop",
-            "related_places": {},
-            "timezone": "America/Toronto"
-        },
-        {
-            "fsq_id": "53779902498e7f4fcfebbe61",
-            "categories": [
-                {
-                    "id": 17119,
-                    "name": "Bicycle Store",
-                    "icon": {
-                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/bikeshop_",
-                        "suffix": ".png"
-                    }
-                }
-            ],
-            "chains": [],
-            "distance": 70274,
-            "geocodes": {
-                "main": {
-                    "latitude": 43.158454,
-                    "longitude": -79.169409
-                }
-            },
-            "location": {
-                "address": "300500 Taylor Rd",
-                "country": "CA",
-                "cross_street": "at Outlet Collection at Niagara",
-                "formatted_address": "300500 Taylor Rd (at Outlet Collection at Niagara), Niagara-on-the-Lake ON L0S 1J0",
-                "locality": "Niagara-on-the-Lake",
-                "postcode": "L0S 1J0",
-                "region": "ON"
-            },
-            "name": "The North Face",
-            "related_places": {
-                "parent": {
-                    "fsq_id": "5344615f498e52679894bae0",
-                    "name": "Outlet Collection at Niagara"
-                }
-            },
-            "timezone": "America/Toronto"
-        },
-        {
-            "fsq_id": "4c6a9605897b1b8dba1ab217",
-            "categories": [
-                {
-                    "id": 17119,
-                    "name": "Bicycle Store",
-                    "icon": {
-                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/bikeshop_",
-                        "suffix": ".png"
-                    }
-                }
-            ],
-            "chains": [],
-            "distance": 78332,
-            "geocodes": {
-                "main": {
-                    "latitude": 44.417058,
-                    "longitude": -79.714505
-                }
-            },
-            "location": {
-                "address": "580 Bayfield St",
-                "address_extended": "# 3",
-                "country": "CA",
-                "cross_street": "",
-                "formatted_address": "580 Bayfield St, Barrie ON L4M 5A2",
-                "locality": "Barrie",
-                "postcode": "L4M 5A2",
-                "region": "ON"
-            },
-            "name": "Gates & Boards",
-            "related_places": {},
-            "timezone": "America/Toronto"
-        },
-        {
-            "fsq_id": "4ba145aef964a520fea737e3",
-            "categories": [
-                {
-                    "id": 17119,
-                    "name": "Bicycle Store",
-                    "icon": {
-                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/bikeshop_",
-                        "suffix": ".png"
-                    }
-                }
-            ],
-            "chains": [],
-            "distance": 80333,
-            "geocodes": {
-                "main": {
-                    "latitude": 43.452312,
-                    "longitude": -80.497014
-                },
-                "roof": {
-                    "latitude": 43.452312,
-                    "longitude": -80.497014
-                }
-            },
-            "location": {
-                "address": "417 King St W",
-                "address_extended": "# 5",
-                "country": "CA",
-                "cross_street": "",
-                "formatted_address": "417 King St W, Kitchener ON N2G 1C2",
-                "locality": "Kitchener",
-                "neighborhood": [
-                    "City Commercial Core"
-                ],
-                "postcode": "N2G 1C2",
-                "region": "ON"
-            },
-            "name": "Ziggy's Cycle",
-            "related_places": {},
-            "timezone": "America/Toronto"
-        },
-        {
-            "fsq_id": "4b7c6191f964a52000902fe3",
-            "categories": [
-                {
-                    "id": 17119,
-                    "name": "Bicycle Store",
-                    "icon": {
-                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/bikeshop_",
-                        "suffix": ".png"
-                    }
-                }
-            ],
-            "chains": [],
-            "distance": 81653,
-            "geocodes": {
-                "main": {
-                    "latitude": 43.468293,
-                    "longitude": -80.522923
-                },
-                "roof": {
-                    "latitude": 43.468293,
-                    "longitude": -80.522923
-                }
-            },
-            "location": {
-                "address": "98 King St N",
-                "country": "CA",
-                "cross_street": "",
-                "formatted_address": "98 King St N, Waterloo ON N2J 2X4",
-                "locality": "Waterloo",
-                "neighborhood": [
-                    "Westmont"
-                ],
-                "postcode": "N2J 2X4",
-                "region": "ON"
-            },
-            "name": "McPhail's Cycle & Sports Ltd",
-            "related_places": {},
-            "timezone": "America/Toronto"
+            "name": "JB Sports",
+            "related_places": {}
         }
     ],
     "context": {
@@ -1941,7 +1937,7 @@
                     "latitude": 43.72,
                     "longitude": -79.57
                 },
-                "radius": 100000
+                "radius": 36000
             }
         }
     }
