@@ -1,7 +1,7 @@
 import pandas as pd
 import json
 
-df = pd.read_csv (r"Automated Speed Enforcement Locations.csv")
+df = pd.read_csv (r"bicycle_thefts.csv")
 
 latitudes = []
 longtitudes = []
@@ -18,7 +18,7 @@ for coordinate in df["geometry"]:
 df["latitude"] = latitudes
 df["longtitude"] = longtitudes
 
-del df['_id']
-del df['Location_Code']
+# del df['_id']
+# del df['Location_Code']
 
 coordinates = zip(latitudes, longtitudes)

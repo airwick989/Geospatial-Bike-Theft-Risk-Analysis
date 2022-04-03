@@ -1,6 +1,8 @@
+from textwrap import indent
 import requests
+import json
 
-url = "https://api.foursquare.com/v3/places/search?ll=43.72%2C-79.57&radius=100000&categories=12057&limit=50"
+url = "https://api.foursquare.com/v3/places/search?ll=43.72%2C-79.57&radius=100000&categories=17119&limit=50"
 
 headers = {
     "Accept": "application/json",
@@ -9,4 +11,9 @@ headers = {
 
 response = requests.request("GET", url, headers=headers)
 
-print(response.text)
+#print(response.text)
+data = json.loads(response.text)
+
+
+with open('FoursquareData.json', 'w', encoding='utf-8') as f:
+    json.dump(data, f, ensure_ascii=False, indent=4)
