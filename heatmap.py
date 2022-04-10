@@ -46,12 +46,12 @@ for hood_id in theft_data['Hood_ID']:
         index += 1
         continue
 
-    #print(f"value:{theft_data['Hood_ID'][index]}, type:{type(theft_data['Hood_ID'][index])}")
     if int(hood_id) in predata['hood_id']:
         i = predata['hood_id'].index(int(hood_id))
         predata['bike_thefts'][i] += 1
 
 df_revised['bike_thefts'] = predata['bike_thefts']
+
 predata['score'] = [0]*len(predata['hood_id'])
 
 for i in range(0, len(predata['hood_id'])):
