@@ -62,3 +62,5 @@ print(predata['score'])
 df_revised['score'] = predata['score']
 
 print(df_revised)
+
+df_revised.to_csv("cluster_data.csv")

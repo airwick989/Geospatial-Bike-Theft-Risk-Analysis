@@ -8,6 +8,8 @@ pandas = "*"
 requests = "*"
 folium = "*"
 shapely = "*"
+sklearn = "*"
+matplotlib = "*"
 
 [dev-packages]
 
