@@ -9,8 +9,17 @@ df = pd.read_csv (r"processed_data.csv")
 map = folium.Map(location=[43.728136,-79.384666], zoom_start=11)
 cluster = MarkerCluster().add_to(map)
 
-for lat,long in zip(df['latitude'], df['longtitude']):
-     folium.Marker([lat, long]).add_to(cluster)
+coordinates = [list(items) for items in zip(df['latitude'], df['longtitude'])]
+
+index = 0
+for i in range(len(coordinates)):
+    folium.Marker(coordinates[i], popup= f"""
+        Neighborhood: {df['neighborhood'][index]}\n
+        Hood ID: {df['hood_id'][index]}\n
+        Score: {df['score'][index]}
+        """).add_to(cluster)
+    
+    index += 1
 
 max_score = df['score'].max()
 
