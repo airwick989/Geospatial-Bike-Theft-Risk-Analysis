@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_49c0fbf2a5eb442eb056539eea666872 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@master/folium/templates/leaflet_heat.min.js"></script>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_49c0fbf2a5eb442eb056539eea666872" ></div>
+        
+</body>
+<script>    
+    
+            var map_49c0fbf2a5eb442eb056539eea666872 = L.map(
+                "map_49c0fbf2a5eb442eb056539eea666872",
+                {
+                    center: [43.728136, -79.384666],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ee77c7e6d5a34e0ca2424b8294be770a = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_49c0fbf2a5eb442eb056539eea666872);
+        
+    
+            var marker_cluster_99868c985b234b2caa4d86d79706e77d = L.markerClusterGroup(
+                {}
+            );
+            map_49c0fbf2a5eb442eb056539eea666872.addLayer(marker_cluster_99868c985b234b2caa4d86d79706e77d);
+        
+    
+            var marker_115c01f795914118b66589f5162e9f79 = L.marker(
+                [43.678605, -79.29854499999999],
+                {}
+            ).addTo(marker_cluster_99868c985b234b2caa4d86d79706e77d);
+        
+    
+            var marker_d2de0eb54c1e408e9dfa1a30c0f0a524 = L.marker(
+                [43.659445, -79.438373],
+                {}
+            ).addTo(marker_cluster_99868c985b234b2caa4d86d79706e77d);
+        
+    
+            var marker_da858ddeba1a4aacb421e889de81def5 = L.marker(
+                [43.700106, -79.455196],
+                {}
+            ).addTo(marker_cluster_99868c985b234b2caa4d86d79706e77d);
+        
+    
+            var marker_e78cefed6bf74b57bf19d07274c02266 = L.marker(
+                [43.679665, -79.39044],
+                {}
+            ).addTo(marker_cluster_99868c985b234b2caa4d86d79706e77d);
+        
+    
+            var marker_5d64b5fc5f9d44e6a7fa8ec9eebffb3c = L.marker(
+                [43.665978, -79.408041],
+                {}
+            ).addTo(marker_cluster_99868c985b234b2caa4d86d79706e77d);
+        
+    
+            var marker_f4407d650b144d2ea425536af4f3d6ca = L.marker(
+                [43.665395000000004, -79.49128499999999],
+                {}
+            ).addTo(marker_cluster_99868c985b234b2caa4d86d79706e77d);
+        
+    
+            var marker_dee42ba046b5416ab5a9d976026dbf85 = L.marker(
+                [43.712478999999995, -79.35995600000001],
+                {}
+            ).addTo(marker_cluster_99868c985b234b2caa4d86d79706e77d);
+        
+    
+            var marker_5b6558eb9be0407e843d5ece7cefe34d = L.marker(
+                [43.716364, -79.400132],
+                {}
+            ).addTo(marker_cluster_99868c985b234b2caa4d86d79706e77d);
+        
+    
+            var marker_4ed203881b4145d0b026686ae4ba0922 = L.marker(
+                [43.772943, -79.254122],
+                {}
+            ).addTo(marker_cluster_99868c985b234b2caa4d86d79706e77d);
+        
+    
+            var marker_9801f15458e94a75825783a002e4cb77 = L.marker(
+                [43.67908, -79.34343],
+                {}
+            ).addTo(marker_cluster_99868c985b234b2caa4d86d79706e77d);
+        
+    
+            var marker_2a1867fb8d9b4fde9c8a369586b6aa71 = L.marker(
+                [43.666157, -79.317863],
+                {}
+            ).addTo(marker_cluster_99868c985b234b2caa4d86d79706e77d);
+        
+    
+            var marker_2b4866f0a7924bd9bc5cee236bc00b49 = L.marker(
+                [43.666456, -79.342554],
+                {}
+            ).addTo(marker_cluster_99868c985b234b2caa4d86d79706e77d);
+        
+    
+            var marker_f4773ab59bc04e7d92a33598afb96d95 = L.marker(
+                [43.653676000000004, -79.353948],
+                {}
+            ).addTo(marker_cluster_99868c985b234b2caa4d86d79706e77d);
+        
+    
+            var marker_1147fb2210f94bc89b902bf5d33ab9bb = L.marker(
+                [43.660651, -79.370593],
+                {}
+            ).addTo(marker_cluster_99868c985b234b2caa4d86d79706e77d);
+        
+    
+            var marker_af07f47d50f4479da34b8ca7b1e6c1f2 = L.marker(
+                [43.735409999999995, -79.345005],
+                {}
+            ).addTo(marker_cluster_99868c985b234b2caa4d86d79706e77d);
+        
+    
+            var marker_6b131270d60c40ab811a1e13fe803355 = L.marker(
+                [43.699949, -79.397231],
+                {}
+            ).addTo(marker_cluster_99868c985b234b2caa4d86d79706e77d);
+        
+    
+            var marker_dfbcca6624764662a0ccb18733157cc5 = L.marker(
+                [43.660509000000005, -79.399873],
+                {}
+            ).addTo(marker_cluster_99868c985b234b2caa4d86d79706e77d);
+        
+    
+            var marker_7a9c4bf73b554fbd80e0f9f68cd2604d = L.marker(
+                [43.655592999999996, -79.398761],
+                {}
+            ).addTo(marker_cluster_99868c985b234b2caa4d86d79706e77d);
+        
+    
+            var marker_e0203ed1d4754fe7be90b7d95a14079b = L.marker(
+                [43.651934999999995, -79.40893],
+                {}
+            ).addTo(marker_cluster_99868c985b234b2caa4d86d79706e77d);
+        
+    
+            var marker_654735562aca444ea4f907d0a1c2beb7 = L.marker(
+                [43.681901, -79.423778],
+                {}
+            ).addTo(marker_cluster_99868c985b234b2caa4d86d79706e77d);
+        
+    
+            var marker_906e8a31fa7544218108a3a42d3543cb = L.marker(
+                [43.662009999999995, -79.424755],
+                {}
+            ).addTo(marker_cluster_99868c985b234b2caa4d86d79706e77d);
+        
+    
+            var marker_ff1e6655eb454bea9f2125bc386f5d04 = L.marker(
+                [43.639474, -79.418952],
+                {}
+            ).addTo(marker_cluster_99868c985b234b2caa4d86d79706e77d);
+        
+    
+            var marker_ec8a34ca3ccb42d6b5a94f754c65ff9d = L.marker(
+                [43.643181, -79.42277],
+                {}
+            ).addTo(marker_cluster_99868c985b234b2caa4d86d79706e77d);
+        
+    
+            var marker_bba661cfcf8c4a94b925c124b5149cee = L.marker(
+                [43.686766999999996, -79.44636],
+                {}
+            ).addTo(marker_cluster_99868c985b234b2caa4d86d79706e77d);
+        
+    
+            var marker_b5e42883cc494e70a1129707cb92f8a4 = L.marker(
+                [43.650086, -79.435843],
+                {}
+            ).addTo(marker_cluster_99868c985b234b2caa4d86d79706e77d);
+        
+    
+            var marker_ac29794367154e7ebdae919178910cd6 = L.marker(
+                [43.641123, -79.434827],
+                {}
+            ).addTo(marker_cluster_99868c985b234b2caa4d86d79706e77d);
+        
+    
+            var marker_6e2dc5362f5b43d89fe8f0c2fc2a1017 = L.marker(
+                [43.765603999999996, -79.412219],
+                {}
+            ).addTo(marker_cluster_99868c985b234b2caa4d86d79706e77d);
+        
+    
+            var marker_4177cdf0789f42b0840c0c0b6b532e97 = L.marker(
+                [43.656015999999994, -79.454561],
+                {}
+            ).addTo(marker_cluster_99868c985b234b2caa4d86d79706e77d);
+        
+    
+            var marker_c5bb16d70e5a426db1c5ec25bcca5d87 = L.marker(
+                [43.639218, -79.443304],
+                {}
+            ).addTo(marker_cluster_99868c985b234b2caa4d86d79706e77d);
+        
+    
+            var marker_685e9e4b74374fc5a2f1106806c4981d = L.marker(
+                [43.675082, -79.471754],
+                {}
+            ).addTo(marker_cluster_99868c985b234b2caa4d86d79706e77d);
+        
+    
+            var marker_1bf2bae8f42a45e48d68f5c9dcdac88a = L.marker(
+                [43.721455, -79.467434],
+                {}
+            ).addTo(marker_cluster_99868c985b234b2caa4d86d79706e77d);
+        
+    
+            var heat_map_781905c0d03742bbbf9589d5f3a52d5b = L.heatLayer(
+                [[43.678605, -79.29854499999999, 159.0], [43.659445, -79.438373, 215.0], [43.700106, -79.455196, 75.0], [43.679665, -79.39044, 435.0], [43.665978, -79.408041, 473.5], [43.665395000000004, -79.49128499999999, 107.0], [43.712478999999995, -79.35995600000001, 33.0], [43.716364, -79.400132, 76.0], [43.772943, -79.254122, 66.0], [43.67908, -79.34343, 94.0], [43.666157, -79.317863, 223.0], [43.666456, -79.342554, 358.0], [43.653676000000004, -79.353948, 644.0], [43.660651, -79.370593, 400.5], [43.735409999999995, -79.345005, 49.0], [43.699949, -79.397231, 145.0], [43.660509000000005, -79.399873, 260.0], [43.655592999999996, -79.398761, 840.0], [43.651934999999995, -79.40893, 204.0], [43.681901, -79.423778, 160.0], [43.662009999999995, -79.424755, 126.67], [43.639474, -79.418952, 992.0], [43.643181, -79.42277, 395.0], [43.686766999999996, -79.44636, 99.0], [43.650086, -79.435843, 257.0], [43.641123, -79.434827, 169.5], [43.765603999999996, -79.412219, 48.0], [43.656015999999994, -79.454561, 170.0], [43.639218, -79.443304, 295.0], [43.675082, -79.471754, 78.0], [43.721455, -79.467434, 119.0]],
+                {"blur": 15, "maxZoom": 18, "minOpacity": 0.5, "radius": 25}
+            ).addTo(map_49c0fbf2a5eb442eb056539eea666872);
+        
+</script>
