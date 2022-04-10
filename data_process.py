@@ -45,7 +45,6 @@ for hood_id in theft_data['Hood_ID']:
         index += 1
         continue
 
-    #print(f"value:{theft_data['Hood_ID'][index]}, type:{type(theft_data['Hood_ID'][index])}")
     if int(hood_id) in predata['hood_id']:
         i = predata['hood_id'].index(int(hood_id))
         predata['bike_thefts'][i] += 1
@@ -65,7 +64,6 @@ bike_costs = (theft_data.groupby(['Hood_ID', 'Cost_of_Bike'], as_index=False).me
 #Add bike costs to revised dataframe
 avg_bike_cost = []
 for hood_id in df_revised["hood_id"]:
-    #print(f"{hood_id} {list(bike_costs[str(hood_id)])}")
     avg_bike_cost.append(list(bike_costs[str(hood_id)])[0])
 
 df_revised["average_bicycle_cost"] = avg_bike_cost
