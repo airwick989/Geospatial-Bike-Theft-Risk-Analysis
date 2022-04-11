@@ -4,9 +4,9 @@ from folium.plugins import HeatMap, MarkerCluster
 
 df = pd.read_csv (r"processed_data.csv")
 
-#-------------------------------------------------------------HEATMAP----------------------------------------------------------------------------#
+#----------------------------------HEATMAP---------------------------------------#
 
-map = folium.Map(location=[43.728136,-79.384666], zoom_start=11)
+map = folium.Map(location=[43.728136,-79.384666], zoom_start=9)
 cluster = MarkerCluster().add_to(map)
 
 coordinates = [list(items) for items in zip(df['latitude'], df['longtitude'])]
