@@ -1,4 +1,3 @@
-from operator import index
 import pandas as pd
 
 df = pd.read_csv (r"bicycle_shop_coordinates.csv")
@@ -92,4 +91,4 @@ df_revised['neighborhood'] = predata['neighborhood']
 
 #Export to CSV
 print(df_revised)
-df_revised.to_csv("processed_data.csv")
+# df_revised.to_csv("processed_data.csv")
