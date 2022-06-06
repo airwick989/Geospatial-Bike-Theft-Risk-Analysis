@@ -7,5 +7,6 @@
 - Surveyed a geological area of 700 km2and constructed a heatmap to visualize the data.
 - Plotted results using methods of K-means clustering powered by machine learning classification.
 
-###Links
-- To explore a notebook outlining the project, click [here](/).
+### Links
+- To explore a jupyter notebook outlining the project, click [here](/project.ipynb).
+- To read over the report discussing the project, click [here](/).
